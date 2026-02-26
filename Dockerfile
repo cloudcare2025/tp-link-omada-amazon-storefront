@@ -20,9 +20,6 @@ COPY *.html ./
 COPY logos/ ./logos/
 COPY images/ ./images/
 
-# Copy video files last (largest)
-COPY videos/ ./videos/ 2>/dev/null || true
-
 # Run build
 RUN chmod +x build.sh && sh build.sh
 
@@ -35,12 +32,8 @@ RUN rm /etc/nginx/conf.d/default.conf
 # Copy built assets
 COPY --from=build /app/dist/ /usr/share/nginx/html/
 
-# Copy nginx config as template
+# Copy nginx config as template (envsubst replaces ${PORT} at runtime)
 COPY --from=build /app/dist/nginx.conf /etc/nginx/templates/default.conf.template
-
-# Non-root healthcheck
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget -qO- http://localhost:${PORT:-80}/ || exit 1
 
 ENV PORT=80
 EXPOSE 80
