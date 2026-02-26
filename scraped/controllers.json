@@ -1,0 +1,375 @@
+{
+  "pageTitle": "Omada SDN Controllers",
+  "heroSection": {
+    "headline": "Omada SDN Controller",
+    "subtext": "Centralized Management for Omada Access Points, Switches, and Routers",
+    "backgroundImageUrl": "",
+    "ctaText": ""
+  },
+  "controllerTypes": [
+    {
+      "name": "Cloud-Based Controller",
+      "description": "The Omada Cloud-Based Controller, existing entirely in the cloud for the Omada Software Defined Networking (SDN) platform, provides 100% centralized cloud management of Omada access points, JetStream switches, and Omada routers\u2014all controlled from a single interface. There is no additional hardware controller investment and installation on customer premises required.",
+      "imageUrl": "",
+      "features": [
+        "Unlimited Centralized Management Scale",
+        "Zero-Touch Provisioning for remote deployment",
+        "Separates network management data from user data for privacy",
+        "High availability with 99.99% SLA",
+        "Automated fault detection",
+        "Geographically isolated back-up servers",
+        "Easy and intelligent network monitoring"
+      ],
+      "capabilities": [
+        "100% centralized cloud management",
+        "No additional hardware controller investment",
+        "Remote deployment and configuration of multi-site networks"
+      ],
+      "specs": {
+        "availabilitySLA": "99.99%",
+        "managementScale": "Unlimited"
+      },
+      "tiers": [
+        {
+          "name": "Per-Device License",
+          "price": "Around $9.99 to $13.44 per device/year",
+          "features": [
+            "Centralized cloud management",
+            "Zero-Touch Provisioning (ZTP)",
+            "Reduces overall deployment, operation, and maintenance costs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hardware Controller",
+      "description": "On-premises hardware controllers for centralized management.",
+      "imageUrl": "",
+      "features": [
+        "Centralized management for Omada devices",
+        "On-premises control"
+      ],
+      "capabilities": [],
+      "specs": {
+        "models": [
+          "OC200",
+          "OC220",
+          "OC400"
+        ]
+      },
+      "models": [
+        {
+          "model": "OC200",
+          "specs": {
+            "devicesManaged": "Up to 100 Omada access points, 20 JetStream switches, and 10 Omada routers",
+            "sitesSupported": null,
+            "users": null,
+            "ports": "2 x 10/100 Mbps Ethernet ports, 1 x USB 2.0 port, 1 x Micro USB port",
+            "dimensions": "3.9 \u00d7 3.9 \u00d7 1.0 inches (100 \u00d7 98 \u00d7 25 mm)"
+          },
+          "imageUrl": ""
+        },
+        {
+          "model": "OC300",
+          "specs": {
+            "devicesManaged": "Up to 500 Omada access points, 100 JetStream switches, and 100 Omada routers",
+            "sitesSupported": null,
+            "users": "Up to 15,000 clients",
+            "ports": "2 x 10/100/1000 Mbps Ethernet ports, 1 x USB 3.0 port",
+            "dimensions": "11.6 \u00d7 7.1 \u00d7 1.7 inches (294 \u00d7 180 \u00d7 44 mm)"
+          },
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Software Controller",
+      "description": "On-premises software controller for centralized management.",
+      "imageUrl": "",
+      "features": [
+        "Centralized Management for up to 10,000 devices",
+        "Free cloud access",
+        "Cost-Effective (free software)",
+        "Easy and Intelligent Network Monitoring",
+        "Easy Setup and Maintenance with Zero-Touch Provisioning"
+      ],
+      "capabilities": [],
+      "specs": {},
+      "systemRequirements": {
+        "smallScale": "For managing up to 1500 EAPs: Intel Core i3-8100, i5-6500, or i7-4700 with 2 or more cores and 4 or more threads, 16 GB RAM or more, 64-bit Linux (Ubuntu 14.04/16.04/17.04/18.04, CentOS 6.x/7) or Microsoft Windows 7/8/10/11/Server (64-bit recommended for stability).",
+        "largeScale": {
+          "500_devices": {
+            "cpu": "4 vCPU, 2.0 GHz",
+            "ram": "6 GB",
+            "bandwidth": "100 Mbps",
+            "disk": "50 GB"
+          },
+          "1500_devices": {
+            "cpu": "8 vCPU, 2.0 GHz",
+            "ram": "8 GB",
+            "bandwidth": "100 Mbps",
+            "disk": "100 GB"
+          },
+          "3000_devices": {
+            "cpu": "16 vCPU, 2.0 GHz",
+            "ram": "16 GB",
+            "bandwidth": "100 Mbps",
+            "disk": "150 GB"
+          },
+          "10000_devices": {
+            "cpu": "64 vCPU, 2.0 GHz",
+            "ram": "64 GB",
+            "bandwidth": "1 Gbps",
+            "disk": "500 GB"
+          }
+        }
+      }
+    }
+  ],
+  "cloudPortal": {
+    "features": [
+      "Real-time network status and traffic distribution monitoring"
+    ],
+    "dashboardScreenshots": [],
+    "mspCapabilities": [
+      "Multi-site management",
+      "Zero-touch provisioning",
+      "Remote deployment and configuration"
+    ]
+  },
+  "comparisonTable": {
+    "columns": [
+      "Feature/Specification",
+      "Omada Software Controller",
+      "Omada Hardware Controller (OC200)",
+      "Omada Hardware Controller (OC300)",
+      "Omada Cloud-Based Controller"
+    ],
+    "rows": [
+      [
+        "Deployment",
+        "Installed on a PC/server (Windows, Linux)",
+        "Dedicated hardware appliance",
+        "Dedicated hardware appliance",
+        "Entirely cloud-hosted"
+      ],
+      [
+        "Management Scale",
+        "Unlimited (recommended \u2264 10,000 devices, actual scale depends on host PC/server specs)",
+        "Up to 100 Omada APs, 10 Omada routers, 20 Omada switches",
+        "Up to 500 Omada EAPs + 100 Omada switches + 100 Omada routers",
+        "Unlimited centralized management scale"
+      ],
+      [
+        "Cloud Access",
+        "Free cloud access available",
+        "Free cloud access available",
+        "Cloud Access",
+        "Built-in cloud access"
+      ],
+      [
+        "Hardware (for Hardware Controllers)",
+        "N/A",
+        "Powerful chipset, durable metal casing, USB 2.0 port, two Fast Ethernet ports",
+        "Metal casing, Rack-Mountable, 2x 10/100/1000 Mbps Ethernet Ports, 1x USB 3.0 Port",
+        "N/A"
+      ],
+      [
+        "Power Supply (for Hardware Controllers)",
+        "N/A",
+        "802.3af/at PoE or Micro USB (DC 5V/Minimum 1A)",
+        "100-240 V ~ 50/60 Hz AC",
+        "N/A"
+      ],
+      [
+        "Cost",
+        "Free software, no additional hardware investment",
+        "Hardware cost",
+        "Hardware cost",
+        "Paid service (Omada Cloud Standard)"
+      ],
+      [
+        "Key Features",
+        "Full feature parity with hardware controllers, flexible scaling",
+        "Centralized management, Omada App, multi-site management, auto backup to USB",
+        "Centralized management, Omada App, multi-site management, faster backups with USB 3.0",
+        "Zero-Touch Provisioning, auto channel selection and power adjustment, no on-site controller needed"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Omada Cloud-Based Controller (CBC)?",
+      "answer": "The Omada Cloud-Based Controller (CBC) is a new controller existing entirely in the cloud for the Omada Software Defined Networking (SDN) platform. It provides centralized cloud management of gateways, switches, and access points from a single interface.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "question": "What are the advantages of Omada CBC over the local controller?",
+      "answer": "The Omada CBC offers centralized cloud management for Omada access points, JetStream switches, and Omada routers, all controlled from a single interface. There is no additional hardware controller investment or installation required on customer premises.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "question": "How do I charge for using Omada CBC?",
+      "answer": "For management and configurations on the Omada Cloud-Based Controller, each device should be bound with an activated license. You can visit the Omada Cloud website, log into your TP-Link ID, and purchase licenses for your Omada devices.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "question": "Is there a free trial for Omada CBC?",
+      "answer": "Yes, each TP-Link ID is eligible for a one-time free trial, with 10 licenses valid for 30 days. You can apply for this on the license subscription website.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "question": "What should I do if I no longer want to manage a device on Omada Cloud-Based Controller?",
+      "answer": "You can unbind the license from the device, and then the device cannot be managed on the cloud-based controller. You can assign the available license to another device. Note that the license will keep ticking after activation whether it is bound with a device, and the unbinding times are limited.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "question": "Does Omada CBC support all Omada products? Why can't I add my Omada products to CBC?",
+      "answer": "No, not all Omada products support the Omada CBC. You should visit the 'Devices Supported by Omada Cloud-Based Controller' page to view compatible devices.",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    }
+  ],
+  "images": [],
+  "hardwareControllers": [
+    {
+      "model": "OC200",
+      "specs": {
+        "devicesManaged": "Up to 100 Omada access points, 20 JetStream switches, and 10 Omada routers",
+        "sitesSupported": null,
+        "users": null,
+        "ports": "2 x 10/100 Mbps Ethernet ports, 1 x USB 2.0 port, 1 x Micro USB port",
+        "dimensions": "3.9 \u00d7 3.9 \u00d7 1.0 inches (100 \u00d7 98 \u00d7 25 mm)"
+      },
+      "imageUrl": ""
+    },
+    {
+      "model": "OC300",
+      "specs": {
+        "devicesManaged": "Up to 500 Omada access points, 100 JetStream switches, and 100 Omada routers",
+        "sitesSupported": null,
+        "users": "Up to 15,000 clients",
+        "ports": "2 x 10/100/1000 Mbps Ethernet ports, 1 x USB 3.0 port",
+        "dimensions": "11.6 \u00d7 7.1 \u00d7 1.7 inches (294 \u00d7 180 \u00d7 44 mm)"
+      },
+      "imageUrl": ""
+    }
+  ],
+  "softwareController": {
+    "systemRequirements": {
+      "smallScale": "For managing up to 1500 EAPs: Intel Core i3-8100, i5-6500, or i7-4700 with 2 or more cores and 4 or more threads, 16 GB RAM or more, 64-bit Linux (Ubuntu 14.04/16.04/17.04/18.04, CentOS 6.x/7) or Microsoft Windows 7/8/10/11/Server (64-bit recommended for stability).",
+      "largeScale": {
+        "500_devices": {
+          "cpu": "4 vCPU, 2.0 GHz",
+          "ram": "6 GB",
+          "bandwidth": "100 Mbps",
+          "disk": "50 GB"
+        },
+        "1500_devices": {
+          "cpu": "8 vCPU, 2.0 GHz",
+          "ram": "8 GB",
+          "bandwidth": "100 Mbps",
+          "disk": "100 GB"
+        },
+        "3000_devices": {
+          "cpu": "16 vCPU, 2.0 GHz",
+          "ram": "16 GB",
+          "bandwidth": "100 Mbps",
+          "disk": "150 GB"
+        },
+        "10000_devices": {
+          "cpu": "64 vCPU, 2.0 GHz",
+          "ram": "64 GB",
+          "bandwidth": "1 Gbps",
+          "disk": "500 GB"
+        }
+      }
+    },
+    "features": [
+      "Centralized Management for up to 10,000 devices",
+      "Free cloud access",
+      "Cost-Effective (free software)",
+      "Easy and Intelligent Network Monitoring",
+      "Easy Setup and Maintenance with Zero-Touch Provisioning"
+    ]
+  },
+  "cloudController": {
+    "tiers": [
+      {
+        "name": "Per-Device License",
+        "price": "Around $9.99 to $13.44 per device/year",
+        "features": [
+          "Centralized cloud management",
+          "Zero-Touch Provisioning (ZTP)",
+          "Reduces overall deployment, operation, and maintenance costs"
+        ]
+      }
+    ],
+    "features": [
+      "Unlimited centralized management scale",
+      "Efficient deployment with Zero-Touch Provisioning (ZTP)",
+      "Reduces overall deployment, operation, and maintenance costs"
+    ],
+    "dashboardScreenshots": []
+  },
+  "allImageUrls": [
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/logo-omada-pro.svg",
+      "description": "Omada Pro Logo official website",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/logo-vigi.svg",
+      "description": "Vigi Logo official website",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/contact-us-active.svg",
+      "description": "Contact Us Active Icon",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/contact-us.svg",
+      "description": "Contact Us Icon",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/log-in.svg",
+      "description": "Log In Icon",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/location.svg",
+      "description": "Location Icon",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/omada/logo.svg",
+      "description": "Omada logo",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/nav/smb-controllers/Cloud-Based.png",
+      "description": "Cloud-Based Controller",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/cloud-based/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/nav/smb-controllers/Hardware.png",
+      "description": "Hardware Controller",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/hardware/"
+    },
+    {
+      "url": "https://static.tp-link.com/assets/images/nav/smb-controllers/Software.png",
+      "description": "Software Controller",
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/controller/"
+    }
+  ],
+  "mspFeatures": [
+    "Multi-tenant privilege assignment",
+    "Remote and centralized management via a unified visual platform",
+    "Scalability and Flexibility for properties of all sizes",
+    "Multi-person management with multi-level permissions",
+    "Customer and Site Management within MSP mode",
+    "EoGRE (Ethernet over GRE) for remote and uniform management",
+    "Streamlined Operations with Zero-Touch Provisioning (ZTP) and batch configuration"
+  ]
+}

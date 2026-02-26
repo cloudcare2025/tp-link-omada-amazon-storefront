@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "scrapedDate": "2026-02-25",
+    "sources": [
+      "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-design-hub/",
+      "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/"
+    ]
+  },
+  "cloudPortal": {
+    "heroSection": {
+      "title": "Omada Cloud-Based Controller",
+      "description": "The Omada Cloud-Based Controller is a component of the Omada Software Defined Networking (SDN) platform, offering 100% centralized cloud management for Omada access points, JetStream switches, and Omada routers. It eliminates the need for additional hardware controller investment and on-site installation."
+    },
+    "features": [
+      {
+        "name": "Cloud-Based",
+        "description": "The controller exists entirely in the cloud, allowing management from anywhere at any time."
+      },
+      {
+        "name": "Zero-Touch Provisioning",
+        "description": "Enables remote deployment and configuration of multi-site networks, reducing the need for on-site engineers and lowering deployment costs."
+      },
+      {
+        "name": "Centralized Management",
+        "description": "Provides a single interface for managing all connected network devices."
+      },
+      {
+        "name": "No Hardware Investment",
+        "description": "There's no need to purchase or install a physical controller on the customer's premises."
+      },
+      {
+        "name": "Easy Monitoring",
+        "description": "An intuitive dashboard allows for real-time network status monitoring, traffic distribution analysis, and access to network logs and alerts."
+      },
+      {
+        "name": "Omada App Support",
+        "description": "Management can also be done conveniently through the Omada app."
+      },
+      {
+        "name": "High Reliability",
+        "description": "The service guarantees 99.9% SLA availability, with 24/7 automated fault detection and geographically isolated backup servers."
+      },
+      {
+        "name": "User Privacy Protection",
+        "description": "TP-Link Omada separates network management data from user data, ensuring user traffic does not pass through the cloud."
+      },
+      {
+        "name": "100% Centralized Cloud Management",
+        "description": "Provides unified control over all Omada network devices from anywhere, anytime, via a web browser or the Omada app. Eliminates the need for additional hardware controllers or on-premise installation."
+      },
+      {
+        "name": "Zero-Touch Provisioning (ZTP)",
+        "description": "Enables remote deployment and configuration of multi-site networks without requiring on-site engineers, reducing deployment costs and effort. Allows for automatic configuration and enrollment of devices directly from the cloud."
+      },
+      {
+        "name": "Enhanced Security",
+        "description": "Separates network management data from user traffic, ensuring user privacy as no user data passes through the cloud."
+      },
+      {
+        "name": "Intelligent Monitoring",
+        "description": "Features an easy-to-use dashboard for real-time network status, traffic distribution, network condition logs, and abnormal event warnings. It also includes network topology mapping for quick troubleshooting."
+      },
+      {
+        "name": "Simplified Maintenance",
+        "description": "Offers features like auto channel selection and power adjustment for Wi-Fi optimization, batch management, multi-site management, and remote firmware updates."
+      }
+    ],
+    "multiSiteManagement": {
+      "sitesCount": "Unlimited",
+      "dashboardDetails": "Enables users to remotely deploy and configure networks across multiple sites. Allows for the management of various brands, regions, or campaigns from a single platform, thereby streamlining content, design, and operational tasks."
+    },
+    "zeroTouchProvisioning": {
+      "workflowSteps": "Allows for the automatic configuration and enrollment of devices directly from the cloud, eliminating the necessity of sending technicians for on-site setup."
+    },
+    "monitoringDashboard": {
+      "metrics": "Real-time network status, traffic distribution, network condition logs, abnormal event warnings.",
+      "views": "Easy-to-use dashboard, network topology mapping."
+    },
+    "alertSystem": "Abnormal event warnings.",
+    "mspCapabilities": [
+      "The features suggest strong MSP capabilities through centralized multi-site management and remote deployment (Zero-Touch Provisioning)."
+    ],
+    "slaDetails": "99.99% or 99.9% SLA availability with 24/7 automated fault detection and geographically isolated backup servers.",
+    "privacySecurity": [
+      {
+        "feature": "Separation of Data",
+        "description": "Separates network management data from user traffic, ensuring user privacy as no user data passes through the cloud."
+      }
+    ],
+    "pricing": {
+      "freeTier": {
+        "name": "Omada Cloud Essentials",
+        "description": "A free version designed for small businesses."
+      },
+      "paidTiers": [
+        {
+          "name": "Omada Cloud Standard",
+          "price": "$11.87 to $13.44 per device per year",
+          "description": "Includes paid licenses with advanced features, suitable for Small to Medium Businesses (SMBs)."
+        }
+      ]
+    },
+    "dashboardScreenshots": [],
+    "imageUrls": [
+      "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/"
+    ],
+    "omadaAppDownloadLinks": {
+      "ios": "https://apps.apple.com/us/app/tp-link-omada/id1327614863",
+      "android": "https://play.google.com/store/apps/details?id=com.tplink.omada"
+    }
+  },
+  "designHub": {
+    "heroSection": {
+      "title": "Omada Design Hub",
+      "description": "The Omada Design Hub is a free, online network planning tool developed by TP-Link, designed to help individuals and businesses efficiently design and deploy their network infrastructure."
+    },
+    "whatItDoes": "A free, AI-powered network planning tool developed by TP-Link. It is designed to streamline the process of designing and optimizing network topology and simulating Wi-Fi coverage.",
+    "features": [
+      {
+        "name": "Visualized Network Planning",
+        "description": "It offers a visual platform for planning networks, allowing users to easily lay out their network designs."
+      },
+      {
+        "name": "AI-Powered Tools",
+        "description": "The hub incorporates AI tools for tasks such as automatically detecting and drawing walls from uploaded floor plans and suggesting optimal placement for access points (APs)."
+      },
+      {
+        "name": "Device Deployment and Simulation",
+        "description": "Users can deploy various Omada devices like APs, gateways, and switches, and simulate Wi-Fi coverage with heatmaps to optimize device placement."
+      },
+      {
+        "name": "Customization and Reporting",
+        "description": "It allows for customization of design elements like wall types and cable preferences. The tool can also generate comprehensive network design reports, including topology maps, device lists, and equipment costs."
+      }
+    ],
+    "floorPlanUpload": "Yes, users can upload floor plans.",
+    "heatMapGeneration": "Yes, the tool generates Wi-Fi heatmaps to visualize signal coverage.",
+    "devicePlacementSimulation": "Yes, it automates optimal access point (AP) placement and allows for simulation.",
+    "coveragePrediction": "Yes, generates Wi-Fi heatmaps to visualize signal coverage.",
+    "howToSteps": [
+      "Upload floor plan",
+      "Automated wall detection and drawing",
+      "Customize wall types, cable preferences, and scale",
+      "Select Omada devices from a portfolio",
+      "Simulate device placement and Wi-Fi coverage",
+      "Generate a professional delivery report"
+    ],
+    "screenshots": [],
+    "imageUrls": [
+      "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-design-hub/"
+    ],
+    "toolUrl": "https://design.tplinkcloud.com/"
+  },
+  "wifiNavi": {
+    "heroSection": {
+      "title": "Omada Wi-Fi Navi App",
+      "description": "The Omada Wi-Fi Navi App is a free, professional mobile application designed for troubleshooting and optimizing Wi-Fi networks. It provides a suite of diagnostic tools to help users identify and resolve network issues and improve Wi-Fi performance directly from their smartphones."
+    },
+    "features": [
+      {
+        "name": "Pre- and Post-installation Tools",
+        "description": "Includes Bandwidth and PoE Calculators, Interference Detection, IP Scan, Roaming Test, and Walking Test."
+      },
+      {
+        "name": "Troubleshooting and Maintenance Tools",
+        "description": "Includes Wi-Fi Integrated Test, Ping Test, Trace Route, iPerf, and Port Scan."
+      },
+      {
+        "name": "Daily Use Features",
+        "description": "Includes Internet Speed Test, Ping Test, Device Scanning, and Wi-Fi Scanning."
+      },
+      {
+        "name": "Wi-Fi Integrated Test",
+        "description": "Generate comprehensive performance reports for network optimization."
+      },
+      {
+        "name": "Roaming Test",
+        "description": "Assess the stability and efficiency of device transitions between access points, monitoring metrics such as packet loss and latency."
+      },
+      {
+        "name": "iPerf Integration",
+        "description": "For in-depth network diagnostics, allowing users to test for packet loss, congestion, and network jitter."
+      },
+      {
+        "name": "Walking Test",
+        "description": "Visualizes Wi-Fi signal coverage and roaming through real-time heat maps."
+      },
+      {
+        "name": "Network Utilities",
+        "description": "Includes Public IP Lookup, IP Scanner, and Port Scanner."
+      }
+    ],
+    "siteSurveyCapabilities": [
+      "Roaming Test",
+      "Walking Test",
+      "iPerf integration",
+      "Wi-Fi Integrated Test"
+    ],
+    "speedTestFeatures": "iPerf integration for in-depth network diagnostics.",
+    "roamingTest": "Assesses device switching between access points.",
+    "iperfIntegration": "iPerf client integration for in-depth network diagnostics.",
+    "walkingTestHeatMap": "Yes, a 'Walking Test' is mentioned, which likely contributes to a heatmap.",
+    "networkUtilities": [
+      "Public IP Lookup",
+      "IP Scanner",
+      "Port Scanner",
+      "Bandwidth & PoE Calculators"
+    ],
+    "downloadLinks": {
+      "ios": "https://apps.apple.com/us/app/wi-fi-navi/id6449396229",
+      "android": "https://play.google.com/store/apps/details?id=com.tplink.\u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd"
+    },
+    "screenshots": [],
+    "imageUrls": [
+      "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/"
+    ]
+  },
+  "softwareController": {
+    "summary": "The Omada Software Defined Networking (SDN) platform is the ecosystem that integrates the Cloud-Based Controller, Design Hub, and Wi-Fi Navi app. It provides a comprehensive solution for centralized management of network devices."
+  },
+  "faqs": [
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "What is Omada Cloud-Based Controller (CBC)?",
+      "answer": "The Omada Cloud-Based Controller (CBC) is a new controller existing entirely in the cloud for the Omada Software Defined Networking (SDN) platform. It provides centralized cloud management of gateways, switches, and access points from a single interface."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "What are the advantages of Omada CBC over the local controller?",
+      "answer": "The Omada CBC offers centralized cloud management for Omada access points, JetStream switches, and Omada routers, all controlled from a single interface. There is no additional hardware controller investment or installation required on customer premises."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "How do I charge for using Omada CBC?",
+      "answer": "For management and configurations on the Omada Cloud-Based Controller, each device should be bound with an activated license. You can visit the Omada Cloud website, log into your TP-Link ID, and purchase licenses for your Omada devices."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "Is there a free trial for Omada CBC?",
+      "answer": "Yes, each TP-Link ID is eligible for a one-time free trial, with 10 licenses valid for 30 days. You can apply for this on the license subscription website."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "What should I do if I no longer want to manage a device on Omada Cloud-Based Controller?",
+      "answer": "You can unbind the license from the device, and then the device cannot be managed on the cloud-based controller. You can assign the available license to another device. Note that the license will keep ticking after activation whether it is bound with a device, and the unbinding times are limited."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/",
+      "question": "Does Omada CBC support all Omada products? Why can't I add my Omada products to CBC?",
+      "answer": "No, not all Omada products support the Omada CBC. You should visit the 'Devices Supported by Omada Cloud-Based Controller' page to view compatible devices."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/",
+      "question": "How to use iPerf to test the speed between the EAP and the wireless client?",
+      "answer": "This is a title of an article, not a direct Q&A. The content is not provided in the search results."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/",
+      "question": "Troubleshooting guide of roaming.",
+      "answer": "This is a title of an article, not a direct Q&A. The content is not provided in the search results."
+    },
+    {
+      "page": "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/",
+      "question": "Troubleshooting guide of common wireless issues.",
+      "answer": "This is a title of an article, not a direct Q&A. The content is not provided in the search results."
+    }
+  ],
+  "images": [
+    {
+      "section": "cloudPortal",
+      "url": "https://www.omadanetworks.com/us/business-networking/omada-controller-cloud-based/"
+    },
+    {
+      "section": "designHub",
+      "url": "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-design-hub/"
+    },
+    {
+      "section": "wifiNavi",
+      "url": "https://www.omadanetworks.com/us/business-networking/omada/software-tools/omada-wifi-navi-app/"
+    }
+  ]
+}

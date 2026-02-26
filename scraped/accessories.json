@@ -1,0 +1,175 @@
+```json
+{
+  "pageTitle": "TP-Link Omada Accessories",
+  "heroSection": {
+    "heading": "Omada Accessories",
+    "description": "Complete range of accessories for Omada networking"
+  },
+  "accessoryCategories": [
+    {
+      "name": "Media Converters",
+      "description": "Omada Media Converters provide a reliable and efficient solution for extending your network over long distances using fiber optic cables. They are ideal for connecting buildings, deploying remote surveillance systems, and in environments with high electromagnetic interference.",
+      "products": [
+        {
+          "name": "Gigabit SFP Media Converter",
+          "model": "MC220L",
+          "specs": {
+            "Ports": "1× 10/100/1000Mbps RJ45 Port, 1× 1000Mbps SFP Slot",
+            "Standards": "IEEE 802.3ab, 802.3z, 802.3x",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Power Supply": "External Power Adapter"
+          },
+          "features": [
+            "Converts fiber to copper and vice versa",
+            "Supports 1000Base-SX/LX/LH fiber",
+            "Hot-swappable SFP module support",
+            "Can be used as a standalone device or with a TP-Link chassis"
+          ],
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202303/20230302/MC220L(UN)1.0-1.png"
+        },
+        {
+          "name": "Gigabit Multi-Mode Media Converter",
+          "model": "MC200CM",
+          "specs": {
+            "Ports": "1× 10/100/1000Mbps RJ45 Port, 1× 1000Mbps SC/UPC Port",
+            "Standards": "IEEE 802.3ab, 802.3z",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Fiber Type": "Multi-mode"
+          },
+          "features": [
+            "Converts 1000BASE-SX fiber to 1000Base-T copper media",
+            "Extends fiber distance up to 0.55km",
+            "Works at 850nm wavelength",
+            "Can be used as a standalone device or with a TP-Link chassis"
+          ],
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202303/20230302/MC200CM(UN)3.0-1.png"
+        },
+        {
+          "name": "10/100Mbps Single-Mode Media Converter",
+          "model": "MC110CS",
+          "specs": {
+            "Ports": "1× 10/100Mbps RJ45 Port, 1× 100Mbps SC/UPC Port",
+            "Standards": "IEEE 802.3u",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Fiber Type": "Single-mode"
+          },
+          "features": [
+            "Converts 100BASE-FX fiber to 100Base-TX copper media",
+            "Extends fiber distance up to 20km",
+            "Works at 1310nm wavelength",
+            "Can be used as a standalone device or with a TP-Link chassis"
+          ],
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202303/20230302/MC110CS(UN)3.0-1.png"
+        },
+        {
+          "name": "Gigabit Single-Mode Media Converter",
+          "model": "MC210CS",
+          "specs": {
+            "Ports": "1× 10/100/1000Mbps RJ45 Port, 1× 1000Mbps SC/UPC Port",
+            "Standards": "IEEE 802.3ab, 802.3z",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Fiber Type": "Single-mode"
+          },
+          "features": [
+            "Converts 1000BASE-LX/LH fiber to 1000Base-T copper media",
+            "Extends fiber distance up to 15km",
+            "Works at 1310nm wavelength",
+            "Can be used as a standalone device or with a TP-Link chassis"
+          ],
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202303/20230302/MC210CS(UN)3.0-1.png"
+        },
+        {
+          "name": "10/100Mbps WDM Media Converter with 1-Port PoE",
+          "model": "FC111PB-20",
+          "specs": {
+            "Ports": "1x 10/100 Mbps PoE RJ45 port, 1x 100 Mbps SC fiber port",
+            "PoE Standard": "802.3af",
+            "Transmission Distance": "Up to 20 km",
+            "Wavelength": "TX: 1310nm, RX: 1550nm"
+          },
+          "features": [
+            "WDM technology for data transmission and reception over a single fiber",
+            "802.3af PoE output simplifies remote camera deployment",
+            "Wide operating temperature range (0–50 ℃)",
+            "Can be used as a standalone device or with TP-Link's TL-FC1420 rack"
+          ],
+          "imageUrl": "https://static.tp-link.com/upload/image-header/FC111PB-20(TL-FC111PB-20)_normal_20250208083607c.png"
+        },
+        {
+            "name": "Gigabit WDM Media Converter",
+            "model": "FC311A-2",
+            "specs": {
+              "Ports": "1× Gigabit RJ45 Port, 1× Gigabit SC Fiber Port",
+              "Transmission Distance": "Up to 2 km",
+              "Wavelength": "TX: 1550 nm, RX: 1310 nm",
+              "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)"
+            },
+            "features": [
+              "Utilizes WDM technology for data transmission and reception over a single fiber",
+              "Extends fiber distance up to 2 km",
+              "Can function as a standalone device or be used with TP-Link's TL-FC1420 rack",
+              "Auto-negotiation of Half-Duplex/Full-Duplex transfer mode"
+            ],
+            "imageUrl": "https://static.tp-link.com/upload/product-picture/2020/12/20201204094000.jpg"
+        },
+        {
+          "name": "10/100Mbps Multi-Mode Media Converter",
+          "model": "MC100CM",
+          "specs": {
+            "Ports": "1x 100M dual SC/UPC port, 1x 10/100M RJ45 port",
+            "Standards": "IEEE 802.3, 802.3u, 802.3x",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Fiber Type": "Multi-mode"
+          },
+          "features": [
+            "Converts 100BASE-FX fiber to 100BASE-TX copper media",
+            "Extends fiber distance up to 2 km",
+            "Works at 1310nm wavelength",
+            "Can be used as a standalone device or with a TP-Link chassis"
+          ],
+          "imageUrl": "https://static.tp-link.com/res/images/products/gallery/MC100CM_3.0_UN_01.png"
+        },
+        {
+          "name": "10/100Mbps WDM Media Converter",
+          "model": "MC111CS",
+          "specs": {
+            "Ports": "1x 10/100Mbps RJ45 Port, 1x 100Mbps SC/UPC Port",
+            "Standards": "IEEE 802.3u",
+            "Dimensions": "3.7 × 2.9 × 1.1 in (94.5 × 73.0 × 27.0 mm)",
+            "Wavelength": "TX: 1550nm, RX: 1310nm"
+          },
+          "features": [
+            "Adopts WDM technology",
+            "Extends fiber distance up to 20 km",
+            "Can be used as a standalone device or with TP-Link's MC1400 chassis",
+            "Requires MC112CS on the other end"
+          ],
+          "imageUrl": "https://static.tp-link.com/res/images/products/gallery/MC111CS_2.0_UN_01.png"
+        }
+      ]
+    },
+    {
+      "name": "Modules & Cables",
+      "description": "",
+      "products": []
+    },
+    {
+      "name": "PoE Adapters",
+      "description": "",
+      "products": []
+    },
+    {
+      "name": "Rackmount Accessories",
+      "description": "",
+      "products": []
+    },
+    {
+      "name": "AP Accessories",
+      "description": "",
+      "products": []
+    }
+  ],
+  "faqs": [],
+  "images": []
+}
+```

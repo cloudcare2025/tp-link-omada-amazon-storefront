@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "model": "SG6654XHP",
+    "imageUrl": "https://static.tp-link.com/upload/image-header/SG6654XHP(UN)1.0_normal_20231110073416j.png"
+  },
+  {
+    "model": "SG3428XMP",
+    "imageUrl": "https://static.tp-link.com/upload/image-header/SG3428XMP_UN_3.20_normal_20240306213644q.png"
+  },
+  {
+    "model": "SG2428LP",
+    "imageUrl": "https://static.tp-link.com/upload/image-header/SG2428LP_UN_1.0_normal_20240319025433e.png"
+  },
+  {
+    "model": "SG2210MP",
+    "imageUrl": "https://static.tp-link.com/upload/image-header/TL-SG2210MP(UN)1.0_normal_20240416104849g.png"
+  }
+]
+```

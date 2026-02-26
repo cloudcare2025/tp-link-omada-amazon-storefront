@@ -1,0 +1,21 @@
+{
+  "name": "omada-amazon-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TP-Link Omada Amazon Storefront - Enterprise Networking Solutions",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "sh build.sh",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist script.js",
+    "start": "npx serve . -l ${PORT:-3000}"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "sass": "^1.71.0",
+    "terser": "^5.31.0",
+    "typescript": "^5.3.3"
+  }
+}

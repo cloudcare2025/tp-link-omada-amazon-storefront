@@ -1,0 +1,560 @@
+{
+  "pageTitle": "TP-Link Omada Network Switches",
+  "heroSection": {
+    "headline": "Omada Switches",
+    "subtext": "A complete range of enterprise-grade network switches providing high-performance, scalable, and centrally managed solutions for any business need. From the core to the edge, Omada has you covered.",
+    "backgroundImageUrl": "images/hero/omada-switches-hero.jpg",
+    "ctaText": "Explore the Switch Tiers"
+  },
+  "switchTiers": [
+    {
+      "name": "Campus L3",
+      "description": "High-performance, stackable Layer 3 switches designed for the core and distribution layers of enterprise and campus networks. They offer maximum performance, availability, and advanced L3 routing capabilities.",
+      "imageUrl": "images/products/switches/l3-stackable.png",
+      "products": [
+        {
+          "name": "48-Port Gigabit Stackable L3 Managed PoE+ Switch with 6 10G Slots",
+          "model": "SG6654XHP",
+          "specs": {
+            "ports": "48\u00d7 Gigabit RJ45 PoE+ Ports, 6\u00d7 10 Gbps SFP+ Slots",
+            "poeBudget": "1440W",
+            "switchingCapacity": "216 Gbps",
+            "layer": "L3"
+          },
+          "description": "A flagship stackable L3 switch with a massive 1440W PoE budget, ideal for demanding enterprise networks with numerous high-power devices. Offers physical stacking and redundant power supplies for high availability.",
+          "imageUrl": "images/products/switches/SG6654XHP.png",
+          "features": [
+            "Physical Stacking",
+            "1440W PoE Budget",
+            "Hot-Swappable Redundant Power Supplies",
+            "Advanced L3 Routing (OSPF, VRRP)",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "24-Port Gigabit Stackable L3 Managed PoE+ Switch with 4 10G Slots",
+          "model": "SG6428XHP",
+          "specs": {
+            "ports": "24\u00d7 Gigabit RJ45 PoE+ Ports, 4\u00d7 10 Gbps SFP+ Slots",
+            "poeBudget": "720W",
+            "switchingCapacity": "128 Gbps",
+            "layer": "L3"
+          },
+          "description": "A powerful stackable L3 switch with a 720W PoE budget and 10G uplinks, designed for convergence layer applications in SMB and enterprise networks.",
+          "imageUrl": "images/products/switches/SG6428XHP.png",
+          "features": [
+            "Physical Stacking",
+            "720W PoE Budget",
+            "Redundant Power Supplies",
+            "Advanced L3 Routing (RIP, OSPF, VRRP)",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "48-Port Gigabit Stackable L3 Managed Switch with 6 10G Slots",
+          "model": "SG6654X",
+          "specs": {
+            "ports": "48\u00d7 Gigabit RJ45 Ports, 6\u00d7 10 Gbps SFP+ Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "216 Gbps",
+            "layer": "L3"
+          },
+          "description": "A non-PoE version of the SG6654XHP, offering the same high-performance L3 features, stacking, and 10G uplinks for core networking.",
+          "imageUrl": "images/products/switches/SG6654X.png",
+          "features": [
+            "Physical Stacking",
+            "Advanced L3 Routing (OSPF, VRRP)",
+            "Redundant Power Supplies",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "24-Port Gigabit Stackable L3 Managed Switch with 4 10G Slots",
+          "model": "SG6428X",
+          "specs": {
+            "ports": "24\u00d7 Gigabit RJ45 Ports, 4\u00d7 10 Gbps SFP+ Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "128 Gbps",
+            "layer": "L3"
+          },
+          "description": "The non-PoE counterpart to the SG6428XHP, providing robust L3 routing and stacking for network convergence without the need for PoE.",
+          "imageUrl": "images/products/switches/SG6428X.png",
+          "features": [
+            "Physical Stacking",
+            "Advanced L3 Routing (RIP, OSPF, VRRP)",
+            "Redundant Power Supplies",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aggregation",
+      "description": "High-speed fiber aggregation switches with 10G and 25G capabilities, designed to act as the core backbone of a network, connecting access switches and eliminating traffic bottlenecks.",
+      "imageUrl": "images/products/switches/aggregation.png",
+      "products": [
+        {
+          "name": "26-Port 10G SFP+ Stackable L3 Managed Aggregation Switch with 6\u00d7 25G Slots",
+          "model": "SX6632YF",
+          "specs": {
+            "ports": "26\u00d7 10G SFP+ Slots, 6\u00d7 25G SFP28 Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "820 Gbps",
+            "layer": "L3"
+          },
+          "description": "A top-tier aggregation switch with lightning-fast 25G uplinks and extensive 10G fiber ports, providing a powerful core for any high-demand network.",
+          "imageUrl": "images/products/switches/SX6632YF.png",
+          "features": [
+            "25G SFP28 Uplinks",
+            "Physical Stacking",
+            "Advanced L3 Routing",
+            "Redundant Power Supplies",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "16-Port 10GE SFP+ L2+ Managed Switch",
+          "model": "SX3016F",
+          "specs": {
+            "ports": "16\u00d7 10G SFP+ Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "320 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A full-fiber switch with 16 10G SFP+ slots, ideal for building or aggregating a high-speed network backbone with low latency.",
+          "imageUrl": "images/products/switches/SX3016F.png",
+          "features": [
+            "Full 10G Fiber Ports",
+            "Static Routing",
+            "Dual Redundant Power Supplies",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "8-Port 10GE SFP+ L2+ Managed Switch",
+          "model": "SX3008F",
+          "specs": {
+            "ports": "8\u00d7 10G SFP+ Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "160 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A compact and powerful 10G fiber aggregation switch, perfect for small to medium-sized business backbones.",
+          "imageUrl": "images/products/switches/SX3008F.png",
+          "features": [
+            "Full 10G Fiber Ports",
+            "Static Routing",
+            "Fanless Design",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Access Max",
+      "description": "The highest tier of access switches, providing full 10-Gigabit and Multi-Gigabit connectivity with high-power PoE++ to support the most demanding devices like Wi-Fi 7 APs and high-performance workstations.",
+      "imageUrl": "images/products/switches/access-max.png",
+      "products": [
+        {
+          "name": "32-Port 10GE L2+ Managed Switch with 24-Port PoE++",
+          "model": "SX3832MPP",
+          "specs": {
+            "ports": "24\u00d7 1/2.5/5/10G RJ45 PoE++ Ports, 8\u00d7 1/10G SFP+ Slots",
+            "poeBudget": "770W",
+            "switchingCapacity": "640 Gbps",
+            "layer": "L2+"
+          },
+          "description": "Ultimate access layer performance with 10G Multi-Gigabit ports, a massive 770W PoE++ budget, and 10G fiber uplinks.",
+          "imageUrl": "images/products/switches/SX3832MPP.png",
+          "features": [
+            "10G Multi-Gigabit Ports",
+            "90W PoE++",
+            "770W PoE Budget",
+            "Static Routing",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "24-Port 10GBASE-T L2+ Managed Switch with 8 10GE SFP+ Slots",
+          "model": "SX3832",
+          "specs": {
+            "ports": "24\u00d7 1/2.5/5/10G RJ45 Ports, 8\u00d7 1/10G SFP+ Slots",
+            "poeBudget": "N/A",
+            "switchingCapacity": "640 Gbps",
+            "layer": "L2+"
+          },
+          "description": "Full 10G connectivity for high-traffic environments like workstations, servers, and NAS devices. A non-PoE powerhouse for pure speed.",
+          "imageUrl": "images/products/switches/SX3832.png",
+          "features": [
+            "10G Multi-Gigabit Ports",
+            "Static Routing",
+            "ERPS Support",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "6-Port 10GE L2+ Managed Switch with 4-Port PoE++",
+          "model": "SX3206HPP",
+          "specs": {
+            "ports": "4\u00d7 10G RJ45 PoE++ Ports, 2\u00d7 10G SFP+ Slots",
+            "poeBudget": "200W",
+            "switchingCapacity": "120 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A compact yet powerful 10G switch with PoE++ designed for deploying a small number of high-performance devices like Wi-Fi 7 APs.",
+          "imageUrl": "images/products/switches/SX3206HPP.png",
+          "features": [
+            "10G Multi-Gigabit Ports",
+            "60W PoE++",
+            "200W PoE Budget",
+            "Static Routing",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Access Pro",
+      "description": "Multi-Gigabit 2.5G access switches with 10G uplinks, designed to support high-speed devices like Wi-Fi 6/7 APs, removing bottlenecks from the access layer.",
+      "imageUrl": "images/products/switches/access-pro.png",
+      "products": [
+        {
+          "name": "24-Port 2.5G L2+ Managed Switch with 16-Port PoE+ & 8-Port PoE++",
+          "model": "SG3428XPP-M2",
+          "specs": {
+            "ports": "24\u00d7 2.5G RJ45 (8 PoE++, 16 PoE+), 4\u00d7 10G SFP+ Slots",
+            "poeBudget": "500W",
+            "switchingCapacity": "200 Gbps",
+            "layer": "L2+"
+          },
+          "description": "Future-proof your network with 2.5G ports, a mix of PoE+ and PoE++, and 10G uplinks to handle high-density and high-bandwidth deployments.",
+          "imageUrl": "images/products/switches/SG3428XPP-M2.png",
+          "features": [
+            "2.5G Ports",
+            "PoE+ and PoE++",
+            "500W PoE Budget",
+            "10G Uplinks",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "8-Port 2.5G L2+ Managed Switch with 8-Port PoE+",
+          "model": "SG3210XHP-M2",
+          "specs": {
+            "ports": "8\u00d7 2.5G RJ45 PoE+ Ports, 2\u00d7 10G SFP+ Slots",
+            "poeBudget": "240W",
+            "switchingCapacity": "80 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A compact 2.5G switch with a generous 240W PoE+ budget and 10G uplinks, ideal for powering a cluster of Wi-Fi 6 APs.",
+          "imageUrl": "images/products/switches/SG3210XHP-M2.png",
+          "features": [
+            "2.5G Ports",
+            "240W PoE+ Budget",
+            "10G Uplinks",
+            "Static Routing",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Access Plus",
+      "description": "Gigabit access switches enhanced with 10G uplinks on every model to prevent bandwidth bottlenecks. They offer robust performance with high PoE budgets for enterprise, hospitality, and education.",
+      "imageUrl": "images/products/switches/access-plus.png",
+      "products": [
+        {
+          "name": "48-Port Gigabit L2+ Managed Switch with 40-Port PoE+ & 8-Port PoE++",
+          "model": "SG3452XMPP",
+          "specs": {
+            "ports": "48\u00d7 1G RJ45 (8 PoE++, 40 PoE+), 4\u00d7 10G SFP+ Slots",
+            "poeBudget": "750W",
+            "switchingCapacity": "176 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A high-density Gigabit switch with a massive 750W budget, supporting both PoE+ and PoE++, and 10G uplinks to ensure smooth traffic flow.",
+          "imageUrl": "images/products/switches/SG3452XMPP.png",
+          "features": [
+            "10G Uplinks",
+            "PoE+ and PoE++",
+            "750W PoE Budget",
+            "Static Routing",
+            "Omada SDN Integrated"
+          ]
+        },
+        {
+          "name": "24-Port Gigabit L2+ Managed Switch with 24-Port PoE+",
+          "model": "SG3428XMP",
+          "specs": {
+            "ports": "24\u00d7 1G RJ45 PoE+ Ports, 4\u00d7 10G SFP+ Slots",
+            "poeBudget": "384W",
+            "switchingCapacity": "128 Gbps",
+            "layer": "L2+"
+          },
+          "description": "A versatile and powerful Gigabit switch with a 384W PoE+ budget and 10G SFP+ uplinks, perfect for most business deployments.",
+          "imageUrl": "images/products/switches/SG3428XMP.png",
+          "features": [
+            "10G Uplinks",
+            "384W PoE+ Budget",
+            "Static Routing",
+            "ERPS Support",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agile (Easy Managed)",
+      "description": "An affordable step up from unmanaged switches, offering easy cloud management through Omada SDN. These switches are ideal for simple networks, surveillance, and small retail.",
+      "imageUrl": "images/products/switches/agile.png",
+      "products": [
+        {
+          "name": "28-Port Gigabit Easy Managed Switch with 24-Port PoE+",
+          "model": "ES228GMP",
+          "specs": {
+            "ports": "26x Gigabit RJ45 (24 PoE+), 2x Gigabit SFP",
+            "poeBudget": "384W",
+            "switchingCapacity": "56 Gbps",
+            "layer": "L2"
+          },
+          "description": "High-density, cost-effective PoE+ switching with easy cloud management, perfect for large surveillance systems and business networks.",
+          "imageUrl": "images/products/switches/ES228GMP.png",
+          "features": [
+            "Omada SDN Cloud Management",
+            "384W PoE+ Budget",
+            "250m PoE Transmission",
+            "PoE Auto Recovery",
+            "QoS"
+          ]
+        },
+        {
+          "name": "10-Port Gigabit Easy Managed Switch with 8-Port PoE+",
+          "model": "ES210GMP",
+          "specs": {
+            "ports": "9x Gigabit RJ45 (8 PoE+), 1x Gigabit SFP/RJ45 Combo",
+            "poeBudget": "123W",
+            "switchingCapacity": "20 Gbps",
+            "layer": "L2"
+          },
+          "description": "A compact and flexible switch with a solid PoE budget, combo SFP port, and easy cloud management.",
+          "imageUrl": "images/products/switches/ES210GMP.png",
+          "features": [
+            "Omada SDN Cloud Management",
+            "123W PoE+ Budget",
+            "Fanless Design",
+            "250m PoE Transmission",
+            "PoE Auto Recovery"
+          ]
+        },
+        {
+          "name": "8-Port Gigabit Easy Managed Switch with 8-Port PoE+",
+          "model": "ES208GP",
+          "specs": {
+            "ports": "8x Gigabit RJ45 PoE+",
+            "poeBudget": "64W",
+            "switchingCapacity": "16 Gbps",
+            "layer": "L2"
+          },
+          "description": "A simple, compact, all-PoE+ switch for small deployments, featuring easy cloud management and a fanless design.",
+          "imageUrl": "images/products/switches/ES208GP.png",
+          "features": [
+            "Omada SDN Cloud Management",
+            "64W PoE+ Budget",
+            "Fanless Design",
+            "250m PoE Transmission",
+            "PoE Auto Recovery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unmanaged",
+      "description": "Plug-and-play switches for simple network expansion. No configuration needed. Select models offer features like extended PoE transmission and traffic isolation.",
+      "imageUrl": "images/products/switches/unmanaged.png",
+      "products": [
+        {
+          "name": "18-Port Gigabit Unmanaged Rackmount Switch with 16-Port PoE+",
+          "model": "DS1018GMP",
+          "specs": {
+            "ports": "16x Gigabit PoE+ RJ45, 2x Combo Gigabit SFP",
+            "poeBudget": "250W",
+            "switchingCapacity": "36 Gbps",
+            "layer": "Unmanaged"
+          },
+          "description": "A robust unmanaged switch with a high PoE budget, ideal for expanding surveillance and business networks with ease.",
+          "imageUrl": "images/products/switches/DS1018GMP.png",
+          "features": [
+            "Plug and Play",
+            "250W PoE+ Budget",
+            "250m Extend Mode",
+            "PoE Auto Recovery",
+            "Priority & Isolation Modes"
+          ]
+        },
+        {
+          "name": "8-Port Gigabit Unmanaged Desktop Switch with 8-Port PoE+",
+          "model": "DS108GP",
+          "specs": {
+            "ports": "8x Gigabit RJ45 PoE+",
+            "poeBudget": "65W",
+            "switchingCapacity": "16 Gbps",
+            "layer": "Unmanaged"
+          },
+          "description": "A simple and reliable desktop switch providing PoE+ to all ports. Perfect for small offices and IP camera setups.",
+          "imageUrl": "images/products/switches/DS108GP.png",
+          "features": [
+            "Plug and Play",
+            "65W PoE+ Budget",
+            "250m Extend Mode",
+            "PoE Auto Recovery",
+            "Fanless Design"
+          ]
+        },
+        {
+          "name": "5-Port Gigabit Unmanaged Desktop Switch with 4-Port PoE+",
+          "model": "DS105GP",
+          "specs": {
+            "ports": "5x Gigabit RJ45 (4 PoE+)",
+            "poeBudget": "65W",
+            "switchingCapacity": "10 Gbps",
+            "layer": "Unmanaged"
+          },
+          "description": "An ultra-compact unmanaged switch with a surprisingly high PoE budget for its size. Ideal for home and small office use.",
+          "imageUrl": "images/products/switches/DS105GP.png",
+          "features": [
+            "Plug and Play",
+            "65W PoE+ Budget",
+            "250m Extend Mode",
+            "PoE Auto Recovery",
+            "Fanless Design"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Industrial",
+      "description": "Industrial-grade switches built to withstand harsh environments with wide temperature ranges, IP40-rated metal casings, and redundant power inputs. Fully manageable with Omada SDN.",
+      "imageUrl": "images/products/switches/industrial.png",
+      "products": [
+        {
+          "name": "10-Port Gigabit Industrial Easy Managed Switch with PoE++",
+          "model": "IES210GPP",
+          "specs": {
+            "ports": "8x Gigabit RJ45 (2 PoE++, 6 PoE+), 2x Gigabit Combo RJ45/SFP",
+            "poeBudget": "240W",
+            "switchingCapacity": "20 Gbps",
+            "layer": "L2"
+          },
+          "description": "A rugged industrial switch with a high PoE budget, including PoE++, designed for reliable operation in extreme temperatures.",
+          "imageUrl": "images/products/switches/IES210GPP.png",
+          "features": [
+            "-40 to 75 \u00b0C Operating Temp",
+            "IP40 Metal Casing",
+            "Redundant DC Power Input",
+            "240W PoE Budget (inc. PoE++)",
+            "Omada SDN Integrated"
+          ]
+        }
+      ]
+    }
+  ],
+  "technologyHighlights": [
+    {
+      "title": "Centralized Cloud Management with Omada SDN",
+      "description": "The Omada Software Defined Networking (SDN) platform integrates network devices, including switches, access points and gateways, providing 100% centralized cloud management. Create a highly scalable network\u2014all controlled from a single interface. Seamless wireless and wired connections are provided, ideal for use in hospitality, education, retail, offices, and more."
+    },
+    {
+      "title": "Advanced Power over Ethernet (PoE)",
+      "description": "Simplify your deployments with Power over Ethernet. Omada switches support various PoE standards, including PoE+ (802.3at) and PoE++ (802.3bt), with budgets up to 1440W. Power devices like IP cameras, VoIP phones, and access points directly over the Ethernet cable, without the need for separate power adapters. Features like PoE Auto Recovery and Extended PoE Range add reliability and flexibility."
+    },
+    {
+      "title": "High-Speed Networking",
+      "description": "Eliminate bottlenecks with a range of high-speed port options. Omada switches offer everything from Gigabit Ethernet to 2.5G Multi-Gigabit, 10G, and even 25G fiber ports, ensuring your network can handle high-bandwidth tasks and future growth with ease."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the benefit of a managed switch over an unmanaged one?",
+      "answer": "Managed switches, like most Omada models, offer greater control over your network. You can configure features like VLANs for security, QoS to prioritize traffic, and monitor network health. Unmanaged switches are simple plug-and-play devices for basic network expansion with no configuration options."
+    },
+    {
+      "question": "Do I need an Omada Controller to use Omada managed switches?",
+      "answer": "While not required (switches can be managed in standalone mode via a web interface or CLI), using an Omada SDN Controller (hardware, software, or cloud-based) unlocks centralized management, allowing you to control your entire network of switches, access points, and gateways from a single dashboard."
+    },
+    {
+      "question": "Can I connect a non-PoE device to a PoE port?",
+      "answer": "Yes. PoE ports are smart and will only supply power if they detect a PoE-compatible device. If you plug in a non-PoE device like a laptop or printer, the port will function as a standard data-only Ethernet port without any risk of damage."
+    },
+    {
+      "question": "What is the difference between PoE, PoE+, and PoE++?",
+      "answer": "These standards define the maximum power that can be delivered over an Ethernet cable. PoE (802.3af) delivers up to 15.4W. PoE+ (802.3at) delivers up to 30W, suitable for devices like VoIP phones and dual-band APs. PoE++ (802.3bt) is the latest standard, delivering 60W (Type 3) or 90-100W (Type 4), required for high-power devices like pan-tilt-zoom cameras and Wi-Fi 6/7 access points."
+    }
+  ],
+  "images": [
+    {
+      "url": "images/case-studies/hospitality.jpg",
+      "alt": "Hotel lobby with strong Wi-Fi signal shown",
+      "context": "Solution for Hospitality"
+    },
+    {
+      "url": "images/case-studies/education.jpg",
+      "alt": "Classroom with students using laptops",
+      "context": "Solution for Education"
+    },
+    {
+      "url": "images/case-studies/retail.jpg",
+      "alt": "Retail store with point-of-sale systems",
+      "context": "Solution for Retail"
+    }
+  ],
+  "comparisonData": [
+    {
+      "tier": "Campus L3",
+      "layer": "L3",
+      "targetUse": "Network Core / Distribution",
+      "keyDifferentiator": "Full Layer 3 routing protocols (OSPF, VRRP), physical stacking, and highest availability with redundant power supplies."
+    },
+    {
+      "tier": "Aggregation",
+      "layer": "L2+ / L3",
+      "targetUse": "Network Backbone",
+      "keyDifferentiator": "All-fiber high-speed ports (10G/25G SFP+/SFP28) for connecting multiple access switches over long distances."
+    },
+    {
+      "tier": "Access Max",
+      "layer": "L2+",
+      "targetUse": "High-Performance Edge",
+      "keyDifferentiator": "Full 10G/Multi-Gigabit ports and the highest PoE++ budgets for connecting next-gen APs and workstations without compromise."
+    },
+    {
+      "tier": "Access Pro",
+      "layer": "L2+",
+      "targetUse": "Future-Proof Edge",
+      "keyDifferentiator": "2.5G Multi-Gigabit ports provide a speed boost over standard Gigabit, with 10G uplinks to prevent bottlenecks. Ideal for Wi-Fi 6/7."
+    },
+    {
+      "tier": "Access Plus",
+      "layer": "L2+",
+      "targetUse": "High-Density Edge",
+      "keyDifferentiator": "Standard Gigabit ports but with 10G uplinks on every model to ensure performance in high-density deployments."
+    },
+    {
+      "tier": "Agile (Easy Managed)",
+      "layer": "L2",
+      "targetUse": "Simple Managed Networks",
+      "keyDifferentiator": "The most affordable entry into Omada's centralized cloud management. Basic L2 features, perfect for surveillance and small businesses."
+    },
+    {
+      "tier": "Unmanaged",
+      "layer": "Unmanaged",
+      "targetUse": "Simple Network Expansion",
+      "keyDifferentiator": "Plug-and-play simplicity. No management or configuration required. Some models have hardware switches for features like 'Extend Mode'."
+    },
+    {
+      "tier": "Industrial",
+      "layer": "L2",
+      "targetUse": "Harsh Environments",
+      "keyDifferentiator": "Built to withstand extreme temperatures and conditions with ruggedized casings and redundant power inputs. Fully cloud-manageable."
+    }
+  ]
+}

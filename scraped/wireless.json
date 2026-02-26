@@ -1,0 +1,368 @@
+{
+  "pageTitle": "Omada WiFi - Business Wireless Access Points",
+  "heroSection": {
+    "headline": "Omada - The Perfect SDN Solution for Small and Medium Business",
+    "subtext": "Office | School | Restaurant | Hotel | and More. Gateways, Switches, Access Points, and Controllers",
+    "backgroundImageUrl": "https://static-page.tp-link.com/omada-sdn/us/img/a.jpg",
+    "ctaText": null
+  },
+  "categories": [
+    {
+      "name": "Ceiling Mount",
+      "description": "Designed for high-density environments, these access points offer robust, seamless connectivity and are easily mounted on ceilings or walls.",
+      "imageUrl": "https://static.tp-link.com/assets/images/nav/smb-wifi/Ceiling%20Mount.png",
+      "productCount": 7,
+      "products": [
+        {
+          "name": "EAP670",
+          "model": "EAP670",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX5400",
+            "poe": "802.3at PoE+",
+            "ports": "1\u00d7 2.5 Gbps Ethernet Port"
+          },
+          "description": "AX5400 Ceiling Mount WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap670-us-v1/eap670-us-v1-gallery-01-l.jpg",
+          "features": [
+            "Seamless Roaming",
+            "Omada Mesh",
+            "Centralized Management"
+          ]
+        },
+        {
+          "name": "EAP690E HD",
+          "model": "EAP690E HD",
+          "specs": {
+            "wifiStandard": "WiFi 6E",
+            "speed": "AXE11000",
+            "poe": "802.3bt PoE++",
+            "ports": "1\u00d7 10G Ethernet Port"
+          },
+          "description": "AXE11000 Ceiling Mount Quad-Band WiFi 6E Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap690e-hd-us-v1/eap690e-hd-us-v1-gallery-01-l.jpg",
+          "features": [
+            "Quad-Band",
+            "High-Density Connectivity",
+            "Omada Mesh"
+          ]
+        },
+        {
+          "name": "EAP680 HD",
+          "model": "EAP680 HD",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX6000",
+            "poe": "802.3at PoE+",
+            "ports": "1\u00d7 2.5 Gbps Ethernet Port"
+          },
+          "description": "AX6000 Ceiling Mount Tri-Band WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap680-hd/eap680-hd-gallery-01-l.jpg",
+          "features": [
+            "Tri-Band",
+            "High-Density Connectivity",
+            "Seamless Roaming"
+          ]
+        },
+        {
+          "name": "EAP683 LR",
+          "model": "EAP683 LR",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX6000",
+            "poe": "802.3at PoE+",
+            "ports": "1\u00d7 2.5 Gbps Ethernet Port"
+          },
+          "description": "AX6000 Ceiling Mount Long-Range WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap683lr-v1/eap683lr-v1-gallery-01-l.jpg",
+          "features": [
+            "Long-Range Coverage",
+            "Omada Mesh",
+            "Seamless Roaming"
+          ]
+        },
+        {
+          "name": "EAP660 HD",
+          "model": "EAP660 HD",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX3600",
+            "poe": "802.3at PoE+",
+            "ports": "1\u00d7 2.5 Gbps Ethernet Port"
+          },
+          "description": "AX3600 Ceiling Mount Dual-Band WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap660-hd/eap660-hd-gallery-01-l.jpg",
+          "features": [
+            "High-Density Connectivity",
+            "Seamless Roaming",
+            "Omada Mesh"
+          ]
+        },
+        {
+          "name": "EAP620 HD",
+          "model": "EAP620 HD",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX1800",
+            "poe": "802.3at PoE+",
+            "ports": "1\u00d7 Gigabit Ethernet Port"
+          },
+          "description": "AX1800 Ceiling Mount WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap620-hd/eap620-hd-gallery-01-l.jpg",
+          "features": [
+            "High-Density Connectivity",
+            "Seamless Roaming",
+            "Omada Mesh"
+          ]
+        },
+        {
+          "name": "EAP265 HD",
+          "model": "EAP265 HD",
+          "specs": {
+            "wifiStandard": "WiFi 5",
+            "speed": "AC1750",
+            "poe": "802.3af/at PoE",
+            "ports": "1\u00d7 Gigabit Ethernet Port"
+          },
+          "description": "AC1750 Ceiling Mount MU-MIMO WiFi Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap265-hd/eap265-hd-gallery-01-l.jpg",
+          "features": [
+            "MU-MIMO",
+            "Seamless Roaming",
+            "Omada Mesh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wall Plate",
+      "description": "Discreet, in-wall access points perfect for providing Wi-Fi to individual rooms in hotels, offices, and dormitories.",
+      "imageUrl": "https://static.tp-link.com/assets/images/nav/smb-wifi/Wall%20Plate.png",
+      "productCount": 3,
+      "products": [
+        {
+          "name": "EAP615-Wall",
+          "model": "EAP615-Wall",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX1800",
+            "poe": "802.3af/at PoE",
+            "ports": "4\u00d7 Gigabit Ethernet Ports (1 PoE Out)"
+          },
+          "description": "AX1800 Wall Plate WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap615-wall/eap615-wall-gallery-01-l.jpg",
+          "features": [
+            "Thin Design",
+            "PoE Passthrough",
+            "Centralized Management"
+          ]
+        },
+        {
+          "name": "EAP235-Wall",
+          "model": "EAP235-Wall",
+          "specs": {
+            "wifiStandard": "WiFi 5",
+            "speed": "AC1200",
+            "poe": "802.3af/at PoE",
+            "ports": "3\u00d7 Gigabit Ethernet Ports (1 PoE Out)"
+          },
+          "description": "AC1200 Wall Plate MU-MIMO WiFi Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap235-wall/eap235-wall-gallery-01-l.jpg",
+          "features": [
+            "Thin Design",
+            "PoE Passthrough",
+            "Centralized Management"
+          ]
+        },
+        {
+          "name": "EAP230-Wall",
+          "model": "EAP230-Wall",
+          "specs": {
+            "wifiStandard": "WiFi 5",
+            "speed": "AC1200",
+            "poe": "802.3af/at PoE",
+            "ports": "2\u00d7 100Mbps Ethernet Ports"
+          },
+          "description": "AC1200 Wall Plate WiFi Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap230-wall/eap230-wall-gallery-01-l.jpg",
+          "features": [
+            "Thin Design",
+            "Centralized Management"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outdoor",
+      "description": "Weatherproof, long-range access points for extending Wi-Fi networks to outdoor areas.",
+      "imageUrl": "https://static.tp-link.com/assets/images/nav/smb-wifi/Outdoor.png",
+      "productCount": 3,
+      "products": [
+        {
+          "name": "EAP650-Outdoor",
+          "model": "EAP650-Outdoor",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX3000",
+            "poe": "802.3at PoE",
+            "ports": "1\u00d7 Gigabit Ethernet Port"
+          },
+          "description": "AX3000 Indoor/Outdoor WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap650-outdoor-v1/eap650-outdoor-v1-gallery-01-l.jpg",
+          "features": [
+            "IP67 Weatherproof",
+            "Long-Range Coverage",
+            "Omada Mesh"
+          ]
+        },
+        {
+          "name": "EAP610-Outdoor",
+          "model": "EAP610-Outdoor",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX1800",
+            "poe": "802.3at PoE / 48V Passive PoE",
+            "ports": "1\u00d7 Gigabit Ethernet Port"
+          },
+          "description": "AX1800 Indoor/Outdoor WiFi 6 Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap610-outdoor/eap610-outdoor-gallery-01-l.jpg",
+          "features": [
+            "IP67 Weatherproof",
+            "Detachable Antennas",
+            "Omada Mesh"
+          ]
+        },
+        {
+          "name": "EAP225-Outdoor",
+          "model": "EAP225-Outdoor",
+          "specs": {
+            "wifiStandard": "WiFi 5",
+            "speed": "AC1200",
+            "poe": "802.3af PoE / 24V Passive PoE",
+            "ports": "1\u00d7 Gigabit Ethernet Port"
+          },
+          "description": "AC1200 Indoor/Outdoor MU-MIMO WiFi Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap225-outdoor/eap225-outdoor-gallery-01-l.jpg",
+          "features": [
+            "IP65 Weatherproof",
+            "Detachable Antennas",
+            "Omada Mesh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Desktop",
+      "description": "Access points designed for desktop use, offering flexible deployment options.",
+      "imageUrl": "https://static.tp-link.com/upload/menu/%E5%85%88AP_%E5%AE%9E%E7%89%A9_20240930102354r.png",
+      "productCount": 1,
+      "products": [
+        {
+          "name": "EAP610GP-Desktop",
+          "model": "EAP610GP-Desktop",
+          "specs": {
+            "wifiStandard": "WiFi 6",
+            "speed": "AX1800",
+            "poe": "802.3at PoE",
+            "ports": "4x Gigabit LAN, 1x GPON, 1x FXS"
+          },
+          "description": "AX1800 Wi-Fi 6 Desktop GPON Access Point",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap610gp-desktop/eap610gp-desktop-gallery-01-l.jpg",
+          "features": [
+            "GPON Integration",
+            "PoE Out",
+            "Omada Mesh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wireless Bridge",
+      "description": "Create long-distance, point-to-point or point-to-multipoint wireless connections.",
+      "imageUrl": "https://static.tp-link.com/assets/images/nav/smb-wifi/Outdoor%20Bridge.png",
+      "productCount": 1,
+      "products": [
+        {
+          "name": "EAP215-Bridge KIT",
+          "model": "EAP215-Bridge KIT",
+          "specs": {
+            "wifiStandard": "WiFi 5",
+            "speed": "AC867",
+            "poe": "802.3af/at PoE, 12V DC, or Passive PoE",
+            "ports": "3x Gigabit Ethernet"
+          },
+          "description": "5GHz AC 867Mbps Long-range Wireless Bridge Kit",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/eap215-bridge-kit/eap215-bridge-kit-gallery-01-l.jpg",
+          "features": [
+            "Up to 5km range",
+            "Pre-paired for plug-and-play",
+            "IP65 Weatherproof"
+          ]
+        }
+      ]
+    }
+  ],
+  "technologyHighlights": [
+    {
+      "title": "Software Defined Networking (SDN) with Cloud Access",
+      "description": "Omada's Software-Defined Networking (SDN) platform integrates network devices, including access points, switches, and routers. It provides 100% centralized cloud management and a highly scalable network controlled from a single interface. Seamless wireless and wired connections are provided, ideal for use in hospitality, education, retail, and offices.",
+      "imageUrl": "https://static-page.tp-link.com/omada-sdn/us/img/b.jpg"
+    },
+    {
+      "title": "Hassle-Free Centralized Cloud Management",
+      "description": "100% centralized cloud management of the whole network from different sites\u2014all controlled from a single interface anywhere, anytime.",
+      "imageUrl": "https://static-page.tp-link.com/omada-sdn/us/img/e.jpg"
+    },
+    {
+      "title": "Zero-Touch Provisioning for Efficient Deployment",
+      "description": "Omada zero-touch provisioning allows remotely deployment and configuration of multi-site networks, so there\u2019s no need to send out an engineer for on-site configuration. The Omada Cloud ensures efficient deployment with lower costs.",
+      "imageUrl": "https://static-page.tp-link.com/omada-sdn/img/f.jpg"
+    },
+    {
+      "title": "AI-Driven Technology for Stronger Performance",
+      "description": "Provides powerful wireless performance while greatly reducing Wi-Fi interference by automatically adjusting the channel settings and transmission power levels of neighboring APs in the same network.",
+      "imageUrl": "https://static-page.tp-link.com/omada-sdn/img/g-2.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Omada Cloud?",
+      "answer": "Omada Cloud provides 100% centralized cloud management for your Omada network. It allows you to control your gateways, switches, and access points from a single interface, anywhere, anytime."
+    },
+    {
+      "question": "What is Zero-Touch Provisioning?",
+      "answer": "Zero-Touch Provisioning allows you to remotely deploy and configure multi-site networks without needing an on-site engineer. Devices automatically get their configuration from the Omada Cloud."
+    },
+    {
+      "question": "How does Omada ensure network reliability?",
+      "answer": "Omada Cloud offers a 99.99% SLA, 24/7 automated fault detection, and geographically isolated backup servers to ensure your network remains operational."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://static.tp-link.com/upload/product-overview/eap670-us-v1/eap670-us-v1-gallery-01-l.jpg",
+      "alt": "EAP670 Access Point",
+      "context": "Product Image"
+    },
+    {
+      "url": "https://static.tp-link.com/upload/product-overview/eap615-wall/eap615-wall-gallery-01-l.jpg",
+      "alt": "EAP615-Wall Access Point",
+      "context": "Product Image"
+    },
+    {
+      "url": "https://static.tp-link.com/upload/product-overview/eap650-outdoor-v1/eap650-outdoor-v1-gallery-01-l.jpg",
+      "alt": "EAP650-Outdoor Access Point",
+      "context": "Product Image"
+    }
+  ],
+  "stats": [
+    {
+      "number": "99.99%",
+      "label": "SLA Availability"
+    },
+    {
+      "number": "100%",
+      "label": "Centralized Cloud Management"
+    }
+  ]
+}

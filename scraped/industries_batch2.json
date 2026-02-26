@@ -1,0 +1,91 @@
+```json
+{
+  "mdu": {
+    "problemStatement": "Provide reliable, scalable, and secure Wi-Fi in high-density multi-tenant environments like apartments, dorms, and senior living facilities, where network management can be complex and residents expect a private and seamless online experience.",
+    "solutionDescription": "A comprehensive, integrated networking portfolio that includes access points, switches, gateways, and controllers, all managed under the unified Omada Software Defined Networking (SDN) platform. This solution offers centralized cloud-based management, simplified security with private connections for each unit, and flexible, easy onboarding for residents and guests.",
+    "keyFeatures": [
+      "Integrated System: Access Points, Switches, Gateways, and Controllers managed by the Omada SDN platform.",
+      "Simplified Management: Centralized cloud management, remote access, automation, and Zero-Touch Provisioning (ZTP).",
+      "Enhanced Security: Private Pre-Shared Key (PPSK) and dynamic VLANs to assign each unit its own private Wi-Fi and dedicated connection.",
+      "Flexible User Onboarding: Customizable captive portals with various authentication options for self-onboarding.",
+      "Advanced Wi-Fi Technology: Supports Wi-Fi 7 with Multi-Link Operation (MLO), MU-MIMO, 6GHz spectrum, property-wide mesh coverage, and seamless roaming.",
+      "Operational Efficiency: Tools for intelligent abnormal detection, integrated debugging, and a real-time monitoring dashboard.",
+      "Versatile Hardware: A wide array of Access Points including ceiling mount, outdoor, wall plate, and extenders."
+    ],
+    "recommendedProducts": [
+      "Omada SDN Controller (Cloud-Based, Hardware, or Software)",
+      "Omada Wi-Fi 7/6 Access Points (Ceiling Mount, Outdoor, Wall Plate)",
+      "Omada Switches (PoE and non-PoE)",
+      "Omada Gateways"
+    ],
+    "caseStudy": {},
+    "networkTopology": "The solution integrates gateways, switches, and access points under the centralized management of an Omada Controller. This allows for a flexible and scalable network architecture tailored to the specific layout of the multi-dwelling unit."
+  },
+  "office": {
+    "problemStatement": "Small to medium-sized offices require a simple, secure, and stable networking solution that can be managed without dedicated IT staff, and can reliably support business-critical applications like VoIP and CCTV.",
+    "solutionDescription": "A unified network management platform (Omada SDN) that integrates routers, switches, and access points. It offers centralized management (cloud, hardware, or software), reliable Wi-Fi, and seamless integration for VoIP and CCTV. The solution is designed for scalability and simplified deployment with Zero-Touch Provisioning.",
+    "keyFeatures": [
+      "Unified Management: Centralized control of all network devices through a single interface.",
+      "Reliable and Secure Wi-Fi: Features seamless roaming, secure guest Wi-Fi with VLAN isolation, and Wi-Fi 6/7 support.",
+      "VoIP and CCTV Integration: Voice VLAN with automatic configuration and QoS, plus PoE Auto Recovery for cameras.",
+      "Robust WAN Connections and VPN: Supports multiple WAN connections for load balancing, 4G backup, and enterprise-level VPN.",
+      "Employee Internet Access Management: Content/URL filtering and Deep Packet Inspection (DPI) for application control.",
+      "Scalability and Zero-Touch Provisioning (ZTP): Simplifies network expansion and deployment."
+    ],
+    "recommendedProducts": [
+      { "model": "OC200", "category": "Controller" },
+      { "model": "OC300", "category": "Controller" },
+      { "model": "ER605", "category": "Gateway" },
+      { "model": "SG2210P", "category": "Switch" },
+      { "model": "EAP670", "category": "Access Point" }
+    ],
+    "caseStudy": {},
+    "networkTopology": "A typical office setup includes an Omada Gateway for internet access and VPN, Omada Access Switches (PoE and non-PoE) to connect wired devices, and Omada Access Points for Wi-Fi coverage, all managed centrally by an Omada Controller. The network can be segmented using VLANs for staff, guests, VoIP, and CCTV."
+  },
+
+  "chainStore": {
+    "problemStatement": "Chain stores and retail businesses with multiple locations require a networking solution that can be managed centrally, provides secure and uninterrupted connectivity for Point-of-Sale (POS) systems, and delivers a seamless Wi-Fi experience for both customers and staff.",
+    "solutionDescription": "A cloud-based Software Defined Networking (SDN) platform that enables centralized management of all store locations from a single interface. The solution provides seamless Wi-Fi, enhanced security for payment data transmission, and streamlined operations to simplify the opening of new stores.",
+    "keyFeatures": [
+      "Centralized Cloud Management: Manage and control networks across all store locations from a single interface, accessible anywhere.",
+      "Seamless Wi-Fi Connectivity: Utilizes Wi-Fi 7/6 access points, mesh technology, and seamless roaming for uninterrupted connectivity.",
+      "Enhanced Security and Reliability: Supports VPN for secure data transmission, VLANs to segment data, and is designed for PCI DSS compliance.",
+      "Streamlined Operations and Scalability: Zero-Touch Provisioning (ZTP) for remote deployment and the ability to copy site templates for new stores.",
+      "Uninterrupted POS System Support: 4G gateways for automatic failover, multi-WAN load balancing, and QoS to prioritize payment services.",
+      "Custom Captive Portal: Businesses can use custom captive portals for user authentication and brand promotion.",
+      "MSP Mode: Facilitates multi-store management by allowing service providers to assign different brands and branches.",
+      "AI-Driven Technology: Provides intelligent network analysis, alerts, and optimization suggestions."
+    ],
+    "recommendedProducts": [
+        "Omada SDN Controller (Cloud-Based)",
+        "Omada Wi-Fi 7/6 Access Points",
+        "Omada PoE Switches",
+        "Omada VPN Gateways (including 4G models)"
+    ],
+    "caseStudy": {},
+    "networkTopology": "The network architecture consists of an Omada Controller managing gateways, switches, and access points across multiple geographically dispersed store locations. VPN tunnels secure data between branches and headquarters."
+  },
+  "warehouse": {
+    "problemStatement": "Warehouses present unique Wi-Fi challenges, including vast open spaces, numerous physical obstructions like shelves, high ceilings, and the need for seamless, uninterrupted roaming for mobile devices such as handheld scanners and Automated Guided Vehicles (AGVs).",
+    "solutionDescription": "A robust Software-Defined Networking (SDN) solution featuring directional access points for complete coverage, advanced features to reduce signal interference, and seamless roaming capabilities. The solution includes durable hardware designed for harsh industrial environments and is managed centrally for simplified deployment and maintenance.",
+    "keyFeatures": [
+      "Full Wi-Fi Coverage: Utilizes directional access points and Wi-Fi Heatmap simulation for effective network planning in large, obstructed areas.",
+      "Reduced Signal Interference: Automatic WLAN Optimization adjusts channels, power, and bandwidth to minimize interference.",
+      "Seamless Roaming: Supports 802.11k/v/r fast roaming and Wi-Fi 6 with ultra-low latency to ensure devices stay connected while moving.",
+      "High-Density Support: Wi-Fi 6 technologies like MU-MIMO and OFDMA provide high concurrency capacity in device-dense areas.",
+      "Harsh Environment Durability: Offers outdoor and industrial-grade access points and switches with IP65/IP68 weatherproofing.",
+      "Simplified Management and Deployment: Centralized network management with Zero-Touch Provisioning (ZTP) and an MSP mode for managing multiple warehouses."
+    ],
+    "recommendedProducts": [
+      { "model": "OC200", "category": "Controller" },
+      { "model": "OC300", "category": "Controller" },
+      "Omada Directional Access Points",
+      "Omada Industrial Switches",
+      "Omada Outdoor Access Points",
+      "Omada Gigabit VPN Gateways"
+    ],
+    "caseStudy": {},
+    "networkTopology": "A typical warehouse network integrates a variety of indoor, outdoor, and directional access points powered by PoE switches. An Omada Gateway provides secure internet access, and the entire network is centrally managed by an Omada SDN Controller (hardware, software, or cloud-based)."
+  }
+}
+```

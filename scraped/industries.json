@@ -1,0 +1,383 @@
+{
+  "industries": [
+    {
+      "id": "hotels",
+      "name": "Hotels & Hospitality",
+      "heroSection": {},
+      "problemStatement": "Modern hotels must provide flawless Wi-Fi to meet guest expectations, which directly impacts reviews and revenue. This requires full-property coverage, high performance for streaming and work, and secure, easy-to-manage networks for both guests and hotel operations.",
+      "solutionDescription": "TP-Link Omada provides an end-to-end hospitality solution. It combines high-performance in-room wall-plate APs, high-density ceiling APs for common areas, and outdoor APs for pools and patios. The Omada SDN platform centralizes management, enabling features like a branded captive portal for guest login, PMS integration for authenticated access, and network segmentation (VLANs) to securely separate guest traffic from hotel administrative systems (e.g., POS, IPTV, Staff).",
+      "keyFeatures": [
+        "Full Wi-Fi Coverage with tailored APs (in-room, ceiling, outdoor)",
+        "High-Performance Wi-Fi 6 for superior guest experience",
+        "Customizable Captive Portal with multiple authentication options (Voucher, SMS, Facebook)",
+        "Seamless Roaming for uninterrupted connectivity property-wide",
+        "VLAN Segmentation for enhanced security",
+        "Zero-Touch Provisioning for rapid deployment",
+        "Centralized cloud management for easy multi-site administration"
+      ],
+      "recommendedProducts": [
+        "Gateway: ER7206 (SafeStream Gigabit Multi-WAN VPN Router)",
+        "Core Switch: SG3428MP (28-Port Gigabit L2+ Managed PoE+ Switch)",
+        "In-Room AP: EAP655-Wall (AX3000 Wall Plate Wi-Fi 6 Access Point)",
+        "Lobby/Conference AP: EAP670 (AX5400 Ceiling Mount Wi-Fi 6 Access Point)",
+        "Controller: OC300 (Omada Hardware Controller) or Cloud-Based Controller"
+      ],
+      "caseStudy": {
+        "references": [
+          "StayHere Hotel in Morocco",
+          "Hotel Luciana in Playa del Carmen"
+        ]
+      },
+      "images": [
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-1.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-2.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-3.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-4.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/g1.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/g2.png",
+        "https://static-page.tp-link.com/business-networking/solution/hotel/img/g3.png"
+      ],
+      "stats": [],
+      "networkTopology": "A multi-WAN gateway connects to the internet, feeding into a core PoE switch. This switch powers and connects to distribution switches and a variety of access points (wall, ceiling, outdoor) across the property. An Omada Controller (hardware or cloud) manages the entire network, which is segmented using VLANs for Guest, Staff, IoT, and IPTV services."
+    },
+    {
+      "id": "mdu",
+      "name": "MDU (Multi-Dwelling Units)",
+      "heroSection": {},
+      "problemStatement": "Provide reliable, scalable, and secure Wi-Fi in high-density multi-tenant environments like apartments, dorms, and senior living facilities, where network management can be complex and residents expect a private and seamless online experience.",
+      "solutionDescription": "A comprehensive, integrated networking portfolio that includes access points, switches, gateways, and controllers, all managed under the unified Omada Software Defined Networking (SDN) platform. This solution offers centralized cloud-based management, simplified security with private connections for each unit, and flexible, easy onboarding for residents and guests.",
+      "keyFeatures": [
+        "Comprehensive Hardware",
+        "Omada SDN Platform",
+        "Simplified Security",
+        "Flexible Onboarding",
+        "Smarter Management",
+        "Easy Deployment",
+        "Future-Ready Technology",
+        "Seamless Coverage",
+        "Efficient Operations and Maintenance"
+      ],
+      "recommendedProducts": [
+        {
+          "category": "Access Points (APs)",
+          "products": [
+            "EAP775-Wall",
+            "EAP725-Wall",
+            "EAP655-Wall",
+            "EAP615-Wall",
+            "EAP772-Outdoor",
+            "EAP725-Outdoor",
+            "EAP650-Outdoor",
+            "EAP610-Outdoor"
+          ]
+        },
+        {
+          "category": "Switches",
+          "products": [
+            "2.5G and 10G uplink switches"
+          ]
+        },
+        {
+          "category": "Gateways",
+          "products": [
+            "Enterprise-grade routing, VPN capabilities, and firewalls"
+          ]
+        },
+        {
+          "category": "Controllers",
+          "products": [
+            "Cloud-Based Controller",
+            "OC200",
+            "OC300",
+            "Software Controllers"
+          ]
+        }
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "The solution integrates gateways, switches, and access points under the centralized management of an Omada Controller. This allows for a flexible and scalable network architecture tailored to the specific layout of the multi-dwelling unit."
+    },
+    {
+      "id": "small-medium-office",
+      "name": "Small-Medium Office",
+      "heroSection": {},
+      "problemStatement": "Small to medium-sized offices require a simple, secure, and stable networking solution that can be managed without dedicated IT staff, and can reliably support business-critical applications like VoIP and CCTV.",
+      "solutionDescription": "A unified network management platform (Omada SDN) that integrates routers, switches, and access points. It offers centralized management (cloud, hardware, or software), reliable Wi-Fi, and seamless integration for VoIP and CCTV. The solution is designed for scalability and simplified deployment with Zero-Touch Provisioning.",
+      "keyFeatures": [
+        "Centralized Management",
+        "Reliable and Stable Connectivity",
+        "Secure Wi-Fi",
+        "Scalability",
+        "Seamless Roaming",
+        "VPN Support",
+        "Enhanced Security Features",
+        "VoIP and CCTV Integration",
+        "Simplified Setup and Maintenance",
+        "Bandwidth Management"
+      ],
+      "recommendedProducts": [
+        {
+          "model": "OC200",
+          "category": "Controller"
+        },
+        {
+          "model": "OC300",
+          "category": "Controller"
+        },
+        {
+          "model": "ER605",
+          "category": "Gateway"
+        },
+        {
+          "model": "SG2210P",
+          "category": "Switch"
+        },
+        {
+          "model": "EAP670",
+          "category": "Access Point"
+        }
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "A typical office setup includes an Omada Gateway for internet access and VPN, Omada Access Switches (PoE and non-PoE) to connect wired devices, and Omada Access Points for Wi-Fi coverage, all managed centrally by an Omada Controller. The network can be segmented using VLANs for staff, guests, VoIP, and CCTV."
+    },
+    {
+      "id": "chain-store",
+      "name": "Chain Store",
+      "heroSection": {},
+      "problemStatement": "Chain stores and retail businesses with multiple locations require a networking solution that can be managed centrally, provides secure and uninterrupted connectivity for Point-of-Sale (POS) systems, and delivers a seamless Wi-Fi experience for both customers and staff.",
+      "solutionDescription": "A cloud-based Software Defined Networking (SDN) platform that enables centralized management of all store locations from a single interface. The solution provides seamless Wi-Fi, enhanced security for payment data transmission, and streamlined operations to simplify the opening of new stores.",
+      "keyFeatures": [
+        "Centralized Cloud Management: Manage and control networks across all store locations from a single interface, accessible anywhere.",
+        "Seamless Wi-Fi Connectivity: Utilizes Wi-Fi 7/6 access points, mesh technology, and seamless roaming for uninterrupted connectivity.",
+        "Enhanced Security and Reliability: Supports VPN for secure data transmission, VLANs to segment data, and is designed for PCI DSS compliance.",
+        "Streamlined Operations and Scalability: Zero-Touch Provisioning (ZTP) for remote deployment and the ability to copy site templates for new stores.",
+        "Uninterrupted POS System Support: 4G gateways for automatic failover, multi-WAN load balancing, and QoS to prioritize payment services.",
+        "Custom Captive Portal: Businesses can use custom captive portals for user authentication and brand promotion.",
+        "MSP Mode: Facilitates multi-store management by allowing service providers to assign different brands and branches.",
+        "AI-Driven Technology: Provides intelligent network analysis, alerts, and optimization suggestions."
+      ],
+      "recommendedProducts": [
+        {
+          "category": "Omada Controllers",
+          "products": [
+            "OC200",
+            "Software controllers",
+            "Cloud-based controllers"
+          ]
+        },
+        {
+          "category": "Access Points (APs)",
+          "products": [
+            "Wi-Fi 6 and Wi-Fi 7 APs (ceiling-mount, wall-plate, and outdoor)"
+          ]
+        },
+        {
+          "category": "PoE Switches",
+          "products": []
+        },
+        {
+          "category": "VPN Gateways/Routers",
+          "products": []
+        }
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "The network architecture consists of an Omada Controller managing gateways, switches, and access points across multiple geographically dispersed store locations. VPN tunnels secure data between branches and headquarters."
+    },
+    {
+      "id": "warehouse",
+      "name": "Warehouse",
+      "heroSection": {},
+      "problemStatement": "Warehouses present unique Wi-Fi challenges, including vast open spaces, numerous physical obstructions like shelves, high ceilings, and the need for seamless, uninterrupted roaming for mobile devices such as handheld scanners and Automated Guided Vehicles (AGVs).",
+      "solutionDescription": "A robust Software-Defined Networking (SDN) solution featuring directional access points for complete coverage, advanced features to reduce signal interference, and seamless roaming capabilities. The solution includes durable hardware designed for harsh industrial environments and is managed centrally for simplified deployment and maintenance.",
+      "keyFeatures": [
+        "Full Wi-Fi Coverage",
+        "Reduced Interference",
+        "Seamless Roaming",
+        "High-Density Support",
+        "High Security Networking",
+        "Open API",
+        "Target Wake Time (TWT)",
+        "Cost-Effective"
+      ],
+      "recommendedProducts": [
+        {
+          "model": "OC200",
+          "category": "Controller"
+        },
+        {
+          "model": "OC300",
+          "category": "Controller"
+        },
+        "Omada Directional Access Points",
+        "Omada Industrial Switches",
+        "Omada Outdoor Access Points",
+        "Omada Gigabit VPN Gateways"
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "A typical warehouse network integrates a variety of indoor, outdoor, and directional access points powered by PoE switches. An Omada Gateway provides secure internet access, and the entire network is centrally managed by an Omada SDN Controller (hardware, software, or cloud-based)."
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor",
+      "heroSection": {},
+      "problemStatement": "Extend reliable wireless coverage to areas such as backyards, gardens, outdoor swimming pools, cafes, and event spaces, as well as for connecting outdoor devices like cameras and speakers.",
+      "solutionDescription": "TP-Link Omada's Outdoor WiFi solution leverages durable, weatherproof (IP65/IP67) access points designed to withstand harsh conditions. It utilizes technologies like Omada Mesh for flexible deployment without extra cables and centralized cloud management through the Omada SDN platform for ease of maintenance. High-gain antennas and advanced wireless standards (Wi-Fi 6) ensure long-range, high-performance coverage.",
+      "keyFeatures": [
+        "Durable, Weatherproof Enclosure (IP65, IP66, IP67 ratings)",
+        "Long-Range Coverage with high-power amplifiers and professional antennas",
+        "Omada Mesh Technology for wireless network extension",
+        "Seamless Roaming for uninterrupted connectivity",
+        "Centralized Cloud Management via Omada SDN",
+        "PoE (Power over Ethernet) for flexible installation"
+      ],
+      "recommendedProducts": [
+        "EAP650-Outdoor (AX3000 Indoor/Outdoor Wi-Fi 6 Access Point)",
+        "EAP225-Outdoor (AC1200 Wireless MU-MIMO Gigabit Indoor/Outdoor Access Point)",
+        "EAP110-Outdoor (300Mbps Wireless N Outdoor Access Point)"
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "Outdoor access points are connected to the main network via PoE switches. They can form a mesh network for wider coverage and are all managed by a single Omada Controller (hardware, software, or cloud-based)."
+    },
+    {
+      "id": "high-density-wifi",
+      "name": "High-Density WiFi",
+      "heroSection": {},
+      "problemStatement": "In environments like transportation hubs, large venues, and conference centers, a high concentration of users and devices can lead to network congestion, slow speeds, and a poor user experience.",
+      "solutionDescription": "The Omada High-Density WiFi solution utilizes advanced Wi-Fi 6 features such as OFDMA, MU-MIMO, and BSS Coloring to dramatically increase network capacity and reduce interference. High-end access points, combined with intelligent features like Load Balancing and Airtime Fairness, ensure a smooth, stable connection for every user, even with thousands of concurrent clients. The entire network is managed centrally via the Omada SDN platform.",
+      "keyFeatures": [
+        "WiFi 6 (802.11ax) Support",
+        "OFDMA and MU-MIMO",
+        "Airtime Fairness (ATF)",
+        "Load Balancing",
+        "Band Steering",
+        "Omada Mesh Technology",
+        "Seamless Roaming",
+        "Centralized Cloud Management (Omada SDN)",
+        "Secure Guest Networks",
+        "Power over Ethernet (PoE+)",
+        "Multi-Gigabit Ethernet Ports"
+      ],
+      "recommendedProducts": [
+        "EAP690E HD (AXE11000 Ceiling Mount Tri-Band Wi-Fi 6E Access Point)",
+        "EAP670 (AX5400 Ceiling Mount Wi-Fi 6 Access Point)",
+        "EAP660 HD (AX3600 Ceiling Mount Wi-Fi 6 Access Point)"
+      ],
+      "caseStudy": {
+        "name": "Aiden Hotels, Sweden",
+        "description": "Deployed a full Omada solution, including high-density access points in common areas, to handle a large number of guests and their devices, resulting in significantly improved guest satisfaction scores related to Wi-Fi quality."
+      },
+      "images": [
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/banner.jpg",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/clients-number.jpg",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/hospitality.png",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/5.png",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/6.png",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/7.png",
+        "https://static.tp-link.com/assets/images/solution/hight-density-environment/8.png",
+        "https://static.tp-link.com/assets/images/omada/case-study.png"
+      ],
+      "stats": [],
+      "networkTopology": "Multiple high-density access points are installed throughout the venue, connected via multi-gigabit PoE switches to a core switch and gateway. The network is managed by an Omada Controller, which provides a topology view and client management."
+    },
+    {
+      "id": "farm",
+      "name": "Farm",
+      "heroSection": {},
+      "problemStatement": "Farms and agricultural businesses require network connectivity over vast, open areas for modern applications like remote equipment monitoring, security surveillance, and data collection, where traditional cabling is impractical and expensive.",
+      "solutionDescription": "The TP-Link Pharos series provides a long-range wireless solution ideal for farms. It uses Point-to-Point (PtP) and Point-to-Multipoint (PtMP) bridges to transmit data over distances of several kilometers. These weatherproof devices create a wireless backbone to connect remote barns, sheds, and fields back to the main office network, enabling the use of IP cameras and other IoT devices across the property.",
+      "keyFeatures": [
+        "Extending Network to Remote Locations",
+        "Wi-Fi Coverage",
+        "Line of Sight",
+        "Power over Ethernet (PoE)",
+        "Environmental Protection",
+        "Scalability",
+        "Central Configuration",
+        "Zero-Touch Provisioning",
+        "Unified Firmware Updates",
+        "Remote Troubleshooting and Monitoring"
+      ],
+      "recommendedProducts": [
+        {
+          "category": "Wireless Bridges (PtP/PtMP)",
+          "products": [
+            "CPE510",
+            "CPE610",
+            "CPE220",
+            "CPE210",
+            "CPE520",
+            "CPE605"
+          ]
+        },
+        {
+          "category": "Outdoor Access Points",
+          "products": [
+            "EAP650-Outdoor",
+            "EAP625-Outdoor HD",
+            "EAP610-Outdoor"
+          ]
+        },
+        {
+          "category": "Switches",
+          "products": [
+            "Managed PoE switches"
+          ]
+        },
+        {
+          "category": "Gateways/Routers",
+          "products": [
+            "Omada gateways"
+          ]
+        },
+        {
+          "category": "Omada Controller",
+          "products": [
+            "OC200",
+            "OC300",
+            "Software Controller",
+            "Cloud-Based Controller"
+          ]
+        }
+      ],
+      "caseStudy": {},
+      "images": [],
+      "stats": [],
+      "networkTopology": "A base station access point is installed at the main building, creating wireless links to CPE devices at remote locations. These CPEs then connect to local switches, cameras, or access points to provide connectivity in and around the outbuildings."
+    }
+  ],
+  "allImages": [
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-1.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-2.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-3.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/f-prod-4.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/g1.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/g2.png",
+    "https://static-page.tp-link.com/business-networking/solution/hotel/img/g3.png",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/banner.jpg",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/clients-number.jpg",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/hospitality.png",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/5.png",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/6.png",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/7.png",
+    "https://static.tp-link.com/assets/images/solution/hight-density-environment/8.png",
+    "https://static.tp-link.com/assets/images/omada/case-study.png"
+  ],
+  "commonFeatures": [
+    "Centralized Cloud Management (Omada SDN)",
+    "Seamless Roaming",
+    "Power over Ethernet (PoE)",
+    "Secure Guest Networks",
+    "Scalability",
+    "Easy Deployment"
+  ],
+  "_note": "Images for mdu, small-medium-office, chain-store, warehouse, outdoor, and farm pages are dynamically rendered via JavaScript and not available via static scrape. A headless browser would be needed to extract them."
+}

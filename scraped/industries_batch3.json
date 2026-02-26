@@ -1,0 +1,91 @@
+```json
+{
+  "outdoor": {
+    "problemStatement": "Providing reliable and seamless wireless connectivity to outdoor areas such as parks, stadiums, and restaurant patios where environmental factors and distance pose significant challenges.",
+    "solutionDescription": "TP-Link Omada's Outdoor WiFi solution leverages durable, weatherproof (IP65/IP67) access points designed to withstand harsh conditions. It utilizes technologies like Omada Mesh for flexible deployment without extra cables and centralized cloud management through the Omada SDN platform for ease of maintenance. High-gain antennas and advanced wireless standards (Wi-Fi 6) ensure long-range, high-performance coverage.",
+    "keyFeatures": [
+      "Durable, Weatherproof Enclosure (IP65, IP66, IP67 ratings)",
+      "Long-Range Coverage with high-power amplifiers and professional antennas",
+      "Omada Mesh Technology for wireless network extension",
+      "Seamless Roaming for uninterrupted connectivity",
+      "Centralized Cloud Management via Omada SDN",
+      "PoE (Power over Ethernet) for flexible installation"
+    ],
+    "recommendedProducts": [
+      "EAP650-Outdoor (AX3000 Indoor/Outdoor Wi-Fi 6 Access Point)",
+      "EAP225-Outdoor (AC1200 Wireless MU-MIMO Gigabit Indoor/Outdoor Access Point)",
+      "EAP110-Outdoor (300Mbps Wireless N Outdoor Access Point)"
+    ],
+    "caseStudy": {},
+    "networkTopology": "Outdoor access points are connected to the main network via PoE switches. They can form a mesh network for wider coverage and are all managed by a single Omada Controller (hardware, software, or cloud-based)."
+  },
+  "highDensityWifi": {
+    "problemStatement": "In environments like transportation hubs, large venues, and conference centers, a high concentration of users and devices can lead to network congestion, slow speeds, and a poor user experience.",
+    "solutionDescription": "The Omada High-Density WiFi solution utilizes advanced Wi-Fi 6 features such as OFDMA, MU-MIMO, and BSS Coloring to dramatically increase network capacity and reduce interference. High-end access points, combined with intelligent features like Load Balancing and Airtime Fairness, ensure a smooth, stable connection for every user, even with thousands of concurrent clients. The entire network is managed centrally via the Omada SDN platform.",
+    "keyFeatures": [
+      "Ultra-High-Density Connectivity with Wi-Fi 6",
+      "OFDMA and MU-MIMO for increased multi-user capacity",
+      "10G and 2.5G Ethernet ports to eliminate bottlenecks",
+      "Seamless Roaming and Omada Mesh",
+      "Load Balancing to distribute clients across APs",
+      "Airtime Fairness to improve overall network efficiency",
+      "Centralized Management and Network Insights"
+    ],
+    "recommendedProducts": [
+      "EAP690E HD (AXE11000 Ceiling Mount Tri-Band Wi-Fi 6E Access Point)",
+      "EAP670 (AX5400 Ceiling Mount Wi-Fi 6 Access Point)",
+      "EAP660 HD (AX3600 Ceiling Mount Wi-Fi 6 Access Point)"
+    ],
+    "caseStudy": {
+        "name": "Aiden Hotels, Sweden",
+        "description": "Deployed a full Omada solution, including high-density access points in common areas, to handle a large number of guests and their devices, resulting in significantly improved guest satisfaction scores related to Wi-Fi quality."
+    },
+    "networkTopology": "Multiple high-density access points are installed throughout the venue, connected via multi-gigabit PoE switches to a core switch and gateway. The network is managed by an Omada Controller, which provides a topology view and client management."
+  },
+  "farm": {
+    "problemStatement": "Farms and agricultural businesses require network connectivity over vast, open areas for modern applications like remote equipment monitoring, security surveillance, and data collection, where traditional cabling is impractical and expensive.",
+    "solutionDescription": "The TP-Link Pharos series provides a long-range wireless solution ideal for farms. It uses Point-to-Point (PtP) and Point-to-Multipoint (PtMP) bridges to transmit data over distances of several kilometers. These weatherproof devices create a wireless backbone to connect remote barns, sheds, and fields back to the main office network, enabling the use of IP cameras and other IoT devices across the property.",
+    "keyFeatures": [
+      "Long-Range Wireless Transmission (up to 20km+ with high-gain antennas)",
+      "Point-to-Point (PtP) and Point-to-Multipoint (PtMP) configurations",
+      "IP65 Weatherproof enclosures for harsh environments",
+      "Pharos MAXtream TDMA technology to improve throughput and latency",
+      "Passive PoE for flexible deployment",
+      "Pharos Control for centralized management"
+    ],
+    "recommendedProducts": [
+      "CPE710 (5GHz AC 867Mbps 23dBi Outdoor CPE)",
+      "CPE510 (5GHz 300Mbps 13dBi Outdoor CPE)",
+      "WBS510 (5GHz 300Mbps Outdoor Wireless Base Station)",
+      "EAP215-BridgeKIT (AC1200 Long Range Wi-Fi Bridge)"
+    ],
+    "caseStudy": {},
+    "networkTopology": "A base station access point is installed at the main building, creating wireless links to CPE devices at remote locations. These CPEs then connect to local switches, cameras, or access points to provide connectivity in and around the outbuildings."
+  },
+  "hotelsSupp": {
+    "problemStatement": "Modern hotels must provide flawless Wi-Fi to meet guest expectations, which directly impacts reviews and revenue. This requires full-property coverage, high performance for streaming and work, and secure, easy-to-manage networks for both guests and hotel operations.",
+    "solutionDescription": "TP-Link Omada provides an end-to-end hospitality solution. It combines high-performance in-room wall-plate APs, high-density ceiling APs for common areas, and outdoor APs for pools and patios. The Omada SDN platform centralizes management, enabling features like a branded captive portal for guest login, PMS integration for authenticated access, and network segmentation (VLANs) to securely separate guest traffic from hotel administrative systems (e.g., POS, IPTV, Staff).",
+    "keyFeatures": [
+      "Full Wi-Fi Coverage with tailored APs (in-room, ceiling, outdoor)",
+      "High-Performance Wi-Fi 6 for superior guest experience",
+      "Customizable Captive Portal with multiple authentication options (Voucher, SMS, Facebook)",
+      "Seamless Roaming for uninterrupted connectivity property-wide",
+      "VLAN Segmentation for enhanced security",
+      "Zero-Touch Provisioning for rapid deployment",
+      "Centralized cloud management for easy multi-site administration"
+    ],
+    "recommendedProducts": [
+      "Gateway: ER7206 (SafeStream Gigabit Multi-WAN VPN Router)",
+      "Core Switch: SG3428MP (28-Port Gigabit L2+ Managed PoE+ Switch)",
+      "In-Room AP: EAP655-Wall (AX3000 Wall Plate Wi-Fi 6 Access Point)",
+      "Lobby/Conference AP: EAP670 (AX5400 Ceiling Mount Wi-Fi 6 Access Point)",
+      "Controller: OC300 (Omada Hardware Controller) or Cloud-Based Controller"
+    ],
+    "caseStudy": {
+        "name": "Hotel Luciana, Playa del Carmen",
+        "description": "Implemented a full Omada Wi-Fi 6 solution to overcome thick concrete walls and provide high-speed internet throughout the property. The solution included centralized management and a customized captive portal, leading to better guest reviews and operational efficiency."
+    },
+    "networkTopology": "A multi-WAN gateway connects to the internet, feeding into a core PoE switch. This switch powers and connects to distribution switches and a variety of access points (wall, ceiling, outdoor) across the property. An Omada Controller (hardware or cloud) manages the entire network, which is segmented using VLANs for Guest, Staff, IoT, and IPTV services."
+  }
+}
+```

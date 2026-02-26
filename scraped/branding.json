@@ -1,0 +1,550 @@
+{
+  "homepage": {
+    "url": "https://www.omadanetworks.com/",
+    "title": "Omada - Networks Empower Business | TP-Link",
+    "heroSection": {
+      "headline": "Networks Empower Business",
+      "subtext": "Omada delivers exceptional value through a comprehensive approach to business networking that leverages innovative technology, partner support, robust security, and reliability to meet the needs of modern businesses.",
+      "backgroundImageUrl_web": "https://static.tp-link.com/upload/static-page/2512_Beam_Bridge_5_UR_Kit_Omada_Homepage_web_20260131001627k.jpg",
+      "backgroundImageUrl_mobile": "https://static.tp-link.com/upload/static-page/2512_Beam_Bridge_5_UR_Kit_Omada_Homepage_mobile_20260131001656d.jpg",
+      "heroSlide2_web": "https://static.tp-link.com/upload/static-page/2601_EAP725-Outdoor_Omada_Homepage_web_20260117034631d.jpg",
+      "heroSlide2_mobile": "https://static.tp-link.com/upload/static-page/2601_EAP725-Outdoor_Omada_Homepage_mobile_20260117034703p.jpg",
+      "mduBanner_web": "https://static.tp-link.com/upload/static-page/mdu_banner_web_3_20260131012055o.jpg",
+      "mduBanner_mobile": "https://static.tp-link.com/upload/static-page/mdu_banner_m_3_20260131012116h.jpg",
+      "ctaText": "Explore Solutions"
+    },
+    "valuePropositions": [
+      {
+        "title": "Centralized Cloud Management",
+        "description": "100% centralized control of your entire network from a single interface, accessible anywhere, anytime."
+      },
+      {
+        "title": "Zero-Touch Provisioning",
+        "description": "Remotely deploy and configure multi-site networks without the need for on-site engineers."
+      },
+      {
+        "title": "AI-Driven Network Optimization",
+        "description": "Leverage AI for automatic channel selection, self-healing mesh, and anomaly detection to ensure optimal performance and security."
+      },
+      {
+        "title": "Enhanced Security",
+        "description": "Protect your network with high-throughput VPNs, WPA3 encryption, customizable firewalls, and guest captive portals."
+      }
+    ],
+    "productCategories": [
+      {
+        "title": "Omada Network Switches",
+        "description": "Omada provides rich switch options, from L3 managed to unmanaged PoE and Non-PoE switches with 25G, 10G, 2.5G, 1G, or fast Ethernet ports.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-switches.jpg"
+      },
+      {
+        "title": "Omada WiFi Access Points",
+        "description": "Ceiling mount, wall plate, outdoor, desktop, and bridge access points ensure a smooth internet experience in any scenario.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-wifi.jpg"
+      },
+      {
+        "title": "Omada Reliable Gateways",
+        "description": "Omada provides rich gateway options, including wired, wireless, 4G WiFi, outdoor, DSL, and integrated gateways.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-gateways.jpg"
+      }
+    ],
+    "solutions": [
+      {
+        "title": "Multi-Dwelling Units (MDU)",
+        "description": "Shape a more connected and secure future for property managers.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-units.jpg"
+      },
+      {
+        "title": "Small-Sized Chain Restaurants/Stores",
+        "description": "Omada full-stack solutions facilitate cloud-based, remote, and multi-store network management.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-POS.jpg"
+      },
+      {
+        "title": "Small and Mid-Sized Offices",
+        "description": "From staff and guest Wi-Fi to VoIP and CCTV, Omada solutions support all key office functions.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-offices.jpg"
+      },
+      {
+        "title": "Hotels & Hospitality",
+        "description": "Enterprise-grade Wi-Fi for hospitality environments.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-hotels-wifi.jpg"
+      },
+      {
+        "title": "High Density Wi-Fi",
+        "description": "Reliable connectivity for high-density environments.",
+        "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-highdensity-wifi.jpg"
+      }
+    ],
+    "brandStory": {
+      "title": "Networks Empower Business",
+      "tagline": "Omada - Networks Empower Business",
+      "description": "Omada delivers exceptional value through a comprehensive approach to business networking that leverages innovative technology, partner support, robust security, and reliability to meet the needs of modern businesses.",
+      "brandFamily": "TP-Link, Tapo, Kasa, Omada, VIGI, Aginet, HomeShield, and Tapo Care branded products are products of TP-Link Systems Inc. or its affiliates."
+    },
+    "stats": [
+      {
+        "value": "1.7B+",
+        "label": "Users Worldwide"
+      },
+      {
+        "value": "170+",
+        "label": "Countries Served"
+      },
+      {
+        "value": "12 Years",
+        "label": "No. 1 in Global WLAN"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Wi-Fi 7 Certified"
+      },
+      {
+        "name": "PoE++ (802.3bt)"
+      },
+      {
+        "name": "ISO 9001 - Quality Management"
+      },
+      {
+        "name": "ISO 14001 - Environmental Management"
+      },
+      {
+        "name": "ISO 27001 - Information Security"
+      },
+      {
+        "name": "ISO 45001 - Occupational Health & Safety"
+      }
+    ]
+  },
+  "caseStudies": [
+    {
+      "title": "Omada Powers Guest Wi-Fi Experience at Manchester Hall",
+      "details": "over 100 rooms and offices",
+      "quote": "These functionalities were exactly what we'd expect from enterprise products.",
+      "author": "Ben Ganley, Managing Director",
+      "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-case1.jpg",
+      "partnerLogo": "https://static-page.tp-link.com/omada/home/img/icon-manchester-hall.svg"
+    },
+    {
+      "title": "Omada PPSK Solution Powers 'Excellent Features' and Greater Affordability",
+      "quote": "The features are excellent, and we have had no issues with any of the products. We also like the fact that they can be cloud managed - PPSK, availability, pricing, and the overall solution.",
+      "author": "Scott Davison, CTO GSD Solutions",
+      "partnerLogo": "https://static-page.tp-link.com/omada/home/img/icon-gsd.svg"
+    },
+    {
+      "title": "Omada Helps Streamline MSP Operations",
+      "details": "Condos and Indoor/Outdoor common areas",
+      "quote": "Once the APs are plugged in, they instantly show up. We adopt them, assign a Wi-Fi profile, and voila, they're done! The controller has easily sped up our deployment time by 20 or 30 percent.",
+      "author": "Luis Santos, vice president of engineering at IPacket Networks",
+      "partnerLogo": "https://static-page.tp-link.com/omada/home/img/icon-ipacket.svg"
+    },
+    {
+      "title": "Omada Delivers a Seamless Wi-Fi 6 Solution with Centralized Management",
+      "details": "Apartments in Australia",
+      "quote": "Omada gave us the dual-WAN capability we needed to create a more protected but more capable network.",
+      "imageUrl": "https://static-page.tp-link.com/omada/home/img/home-case2.jpg"
+    },
+    {
+      "title": "Omada's Wi-Fi 6 Solution Transforms Student Wi-Fi",
+      "details": "Dormitories at UK Manor Villages",
+      "quote": "Having worked with Omada many times before, we knew the Omada range would more than solve the issues raised by Manor Villages.",
+      "imageUrl": "https://static.tp-link.com/upload/static-page/manor_villiages_20260123013845j.jpg"
+    },
+    {
+      "title": "Omada Delivers a Whole-Building Wi-Fi 6 Solution",
+      "details": "Square Meters in Japan",
+      "quote": "While there were other products available, Omada proved to be the most convenient.",
+      "imageUrl": "https://static.tp-link.com/upload/static-page/Tokyo_Toyosu_Manyo_20260123014136b.jpg"
+    },
+    {
+      "title": "Omada and VIGI Deploys Devices to Power Wi-Fi 6 and Surveillance in Japan",
+      "quote": "Omada and VIGI provides low-cost networking and surveillance products that can address your concerns."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "These functionalities were exactly what we'd expect from enterprise products.",
+      "author": "Ben Ganley",
+      "title": "Managing Director",
+      "company": "Manchester Hall"
+    },
+    {
+      "quote": "The features are excellent, and we have had no issues with any of the products. We also like the fact that they can be cloud managed - PPSK, availability, pricing, and the overall solution.",
+      "author": "Scott Davison",
+      "title": "CTO",
+      "company": "GSD Solutions"
+    },
+    {
+      "quote": "Once the APs are plugged in, they instantly show up. We adopt them, assign a Wi-Fi profile, and voila, they're done! The controller has easily sped up our deployment time by 20 or 30 percent.",
+      "author": "Luis Santos",
+      "title": "Vice President of Engineering",
+      "company": "IPacket Networks"
+    },
+    {
+      "quote": "Omada gave us the dual-WAN capability we needed to create a more protected but more capable network.",
+      "author": "Unknown",
+      "company": "Australian MDU deployment"
+    },
+    {
+      "quote": "Having worked with Omada many times before, we knew the Omada range would more than solve the issues raised by Manor Villages.",
+      "author": "Unknown",
+      "company": "UK Manor Villages"
+    },
+    {
+      "quote": "While there were other products available, Omada proved to be the most convenient.",
+      "author": "Unknown",
+      "company": "Tokyo Toyosu Manyo (Japan)"
+    },
+    {
+      "quote": "Omada and VIGI provides low-cost networking and surveillance products that can address your concerns.",
+      "author": "Unknown",
+      "company": "JNETS Network (Japan)"
+    }
+  ],
+  "videos": [],
+  "logos": {
+    "omadaLogo": "https://static.tp-link.com/assets/images/omada/logo.svg",
+    "omadaProLogo": "https://static.tp-link.com/assets/images/omada/logo-omada-pro.svg",
+    "vigiLogo": "https://static.tp-link.com/assets/images/omada/logo-vigi.svg",
+    "omadaTag": "https://static.tp-link.com/res/images/icons/tag-omada.svg",
+    "openGraphLogo": "https://static.tp-link.com/assets/images/icon/open_graph_logo_omada.png",
+    "favicon": "https://www.omadanetworks.com/favicon.ico",
+    "localFiles": {
+      "omadaLogo": "logos/omada-logo.svg",
+      "omadaProLogo": "logos/omada-pro-logo.svg",
+      "vigiLogo": "logos/vigi-logo.svg",
+      "omadaTag": "logos/tag-omada.svg",
+      "openGraphLogo": "logos/omada-og-logo.png",
+      "favicon": "logos/favicon.ico"
+    }
+  },
+  "partnerLogos": [
+    {
+      "name": "Manchester Hall",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-manchester-hall.svg",
+      "local": "images/partners/manchester-hall.svg"
+    },
+    {
+      "name": "JYSK",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-JYSK.svg",
+      "local": "images/partners/jysk.svg"
+    },
+    {
+      "name": "Control4",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-control4.svg",
+      "local": "images/partners/control4.svg"
+    },
+    {
+      "name": "Crestron",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-crestron.svg",
+      "local": "images/partners/crestron.svg"
+    },
+    {
+      "name": "Synology",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-synology.svg",
+      "local": "images/partners/synology.svg"
+    },
+    {
+      "name": "Zebra",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-zebra.svg",
+      "local": "images/partners/zebra.svg"
+    },
+    {
+      "name": "Yealink",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-yealink.svg",
+      "local": "images/partners/yealink.svg"
+    },
+    {
+      "name": "Fanvil",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-fanvil.svg",
+      "local": "images/partners/fanvil.svg"
+    },
+    {
+      "name": "Shift4",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-shift4.svg",
+      "local": "images/partners/shift4.svg"
+    },
+    {
+      "name": "Milestone",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-milstone.svg",
+      "local": "images/partners/milestone.svg"
+    },
+    {
+      "name": "Weblib",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-weblib.svg",
+      "local": "images/partners/weblib.svg"
+    },
+    {
+      "name": "IPacket",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-ipacket.svg",
+      "local": "images/partners/ipacket.svg"
+    },
+    {
+      "name": "Aicono",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-aicono.svg",
+      "local": "images/partners/aicono.svg"
+    },
+    {
+      "name": "Xior",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-xior.svg",
+      "local": "images/partners/xior.svg"
+    },
+    {
+      "name": "TCDD",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-TCDD.svg",
+      "local": "images/partners/tcdd.svg"
+    },
+    {
+      "name": "JNETS Network",
+      "url": "https://static.tp-link.com/upload/static-page/Japan_JNETS_Network_20260123014353m.png",
+      "local": "images/partners/jnets-network.png"
+    },
+    {
+      "name": "Tecco",
+      "url": "https://static.tp-link.com/upload/static-page/Tecco_logo_20260122093216a.png",
+      "local": "images/partners/tecco.png"
+    },
+    {
+      "name": "GSD Solutions",
+      "url": "https://static-page.tp-link.com/omada/home/img/icon-gsd.svg"
+    }
+  ],
+  "allImages": {
+    "heroes": [
+      {
+        "name": "beam-bridge-hero-web",
+        "url": "https://static.tp-link.com/upload/static-page/2512_Beam_Bridge_5_UR_Kit_Omada_Homepage_web_20260131001627k.jpg",
+        "local": "images/hero/beam-bridge-hero-web.jpg"
+      },
+      {
+        "name": "beam-bridge-hero-mobile",
+        "url": "https://static.tp-link.com/upload/static-page/2512_Beam_Bridge_5_UR_Kit_Omada_Homepage_mobile_20260131001656d.jpg",
+        "local": "images/hero/beam-bridge-hero-mobile.jpg"
+      },
+      {
+        "name": "eap725-outdoor-hero-web",
+        "url": "https://static.tp-link.com/upload/static-page/2601_EAP725-Outdoor_Omada_Homepage_web_20260117034631d.jpg",
+        "local": "images/hero/eap725-outdoor-hero-web.jpg"
+      },
+      {
+        "name": "eap725-outdoor-hero-mobile",
+        "url": "https://static.tp-link.com/upload/static-page/2601_EAP725-Outdoor_Omada_Homepage_mobile_20260117034703p.jpg",
+        "local": "images/hero/eap725-outdoor-hero-mobile.jpg"
+      },
+      {
+        "name": "mdu-banner-web",
+        "url": "https://static.tp-link.com/upload/static-page/mdu_banner_web_3_20260131012055o.jpg",
+        "local": "images/hero/mdu-banner-web.jpg"
+      },
+      {
+        "name": "mdu-banner-mobile",
+        "url": "https://static.tp-link.com/upload/static-page/mdu_banner_m_3_20260131012116h.jpg",
+        "local": "images/hero/mdu-banner-mobile.jpg"
+      }
+    ],
+    "lifestyle": [
+      {
+        "name": "home-hotels-wifi",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-hotels-wifi.jpg",
+        "local": "images/branding/home-hotels-wifi.jpg"
+      },
+      {
+        "name": "home-offices",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-offices.jpg",
+        "local": "images/branding/home-offices.jpg"
+      },
+      {
+        "name": "home-highdensity-wifi",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-highdensity-wifi.jpg",
+        "local": "images/branding/home-highdensity-wifi.jpg"
+      },
+      {
+        "name": "home-units-mdu",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-units.jpg",
+        "local": "images/branding/home-units.jpg"
+      },
+      {
+        "name": "home-POS",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-POS.jpg",
+        "local": "images/branding/home-POS.jpg"
+      },
+      {
+        "name": "home-wifi",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-wifi.jpg",
+        "local": "images/branding/home-wifi.jpg"
+      }
+    ],
+    "products": [
+      {
+        "name": "home-gateways",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-gateways.jpg",
+        "local": "images/branding/home-gateways.jpg"
+      },
+      {
+        "name": "home-switches",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-switches.jpg",
+        "local": "images/branding/home-switches.jpg"
+      }
+    ],
+    "caseStudies": [
+      {
+        "name": "case-study-1",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-case1.jpg",
+        "local": "images/branding/case-study-1.jpg"
+      },
+      {
+        "name": "case-study-2",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-case2.jpg",
+        "local": "images/branding/case-study-2.jpg"
+      },
+      {
+        "name": "case-study-3",
+        "url": "https://static-page.tp-link.com/omada/home/img/home-case3.jpg",
+        "local": "images/branding/case-study-3.jpg"
+      },
+      {
+        "name": "tokyo-toyosu-manyo",
+        "url": "https://static.tp-link.com/upload/static-page/Tokyo_Toyosu_Manyo_20260123014136b.jpg",
+        "local": "images/branding/tokyo-toyosu-manyo.jpg"
+      },
+      {
+        "name": "manor-villages",
+        "url": "https://static.tp-link.com/upload/static-page/manor_villiages_20260123013845j.jpg",
+        "local": "images/branding/manor-villages.jpg"
+      },
+      {
+        "name": "case-study-generic",
+        "url": "https://static.tp-link.com/assets/images/omada/case-study.png",
+        "local": "images/branding/case-study-generic.png"
+      }
+    ],
+    "sdnPage": [
+      {
+        "name": "omada-sdn-main",
+        "url": "https://static-page.tp-link.com/omada-sdn/img/i.jpg",
+        "local": "images/branding/omada-sdn-main.jpg"
+      },
+      {
+        "name": "omada-sdn-video-thumb",
+        "url": "https://static-page.tp-link.com/omada-sdn/img/video.png",
+        "local": "images/branding/omada-sdn-video-thumb.png"
+      }
+    ]
+  },
+  "navigation": {
+    "primaryNav": [
+      {
+        "text": "Products",
+        "children": [
+          {
+            "text": "Wi-Fi",
+            "items": [
+              "Ceiling Mount",
+              "Wall Plate",
+              "Outdoor",
+              "WiFi 7",
+              "Outdoor Bridge"
+            ]
+          },
+          {
+            "text": "Switches",
+            "items": [
+              "Access",
+              "Access Plus",
+              "Access Pro",
+              "Access Max",
+              "Campus",
+              "Aggregation",
+              "Agile",
+              "Unmanaged"
+            ]
+          },
+          {
+            "text": "Routers/Gateways",
+            "items": [
+              "Wired Routers",
+              "Wi-Fi Routers",
+              "3-in-1 Routers",
+              "4G Wi-Fi Routers"
+            ]
+          },
+          {
+            "text": "Controllers",
+            "items": [
+              "Cloud-Based",
+              "Hardware",
+              "Software"
+            ]
+          },
+          {
+            "text": "Accessories",
+            "items": [
+              "PoE Adapters",
+              "Media Converters",
+              "Module & Cable",
+              "Power Modules"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Solutions",
+        "children": [
+          "Multi-Dwelling Units (MDU)",
+          "Small and Mid-Sized Offices",
+          "Small-Sized Chain Restaurants/Stores",
+          "WiFi for Farms/Ranches/Parking Lots",
+          "PtP & PtMP Wireless Bridges",
+          "Multi-Gigabit Solution",
+          "PoE Switches for Surveillance"
+        ]
+      },
+      {
+        "text": "Case Studies",
+        "href": "/case-studies/"
+      },
+      {
+        "text": "Support",
+        "children": [
+          "Training Introduction",
+          "Hardware Installation Guide",
+          "Security Vulnerability",
+          "EOL/EOM/EOS Notification"
+        ]
+      },
+      {
+        "text": "Partner",
+        "href": "/partner/"
+      }
+    ],
+    "footerSections": [
+      {
+        "title": "Corporate Information"
+      },
+      {
+        "title": "Find a Distributor/Reseller"
+      },
+      {
+        "title": "Partner Deal Registration"
+      },
+      {
+        "title": "Training & Certification"
+      },
+      {
+        "title": "Business Networking and Surveillance (Omada and VIGI)"
+      }
+    ],
+    "sectionTitle_trustedBy": "Trusted By Customers Worldwide",
+    "sectionTitle_caseStudies": "Omada Powers Real-World Success"
+  },
+  "metaData": {
+    "ogTitle": "Omada",
+    "ogDescription": "Omada delivers exceptional value through a comprehensive approach to business networking that leverages innovative technology, partner support, robust security, and reliability to meet the needs of modern businesses.",
+    "ogImage": "https://static.tp-link.com/assets/images/icon/open_graph_logo_omada.png",
+    "ogType": "website",
+    "ogUrl": "https://www.omadanetworks.com/us/business-networking/",
+    "ogSiteName": "Omada",
+    "metaDescription": "Omada delivers exceptional value through a comprehensive approach to business networking that leverages innovative technology, partner support, robust security, and reliability to meet the needs of modern businesses.",
+    "copyright": "2026 TP-Link Systems Inc. and its affiliated companies. All rights reserved."
+  }
+}

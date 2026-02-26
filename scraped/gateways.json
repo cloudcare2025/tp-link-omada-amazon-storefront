@@ -1,0 +1,309 @@
+{
+  "pageTitle": "Omada Routers | Business Networking",
+  "heroSection": {
+    "headline": "Omada Gateways: Secure and Reliable Business Networking",
+    "subtext": "Discover a complete lineup of professional wired, wireless, and integrated gateways designed for centralized management and robust security.",
+    "backgroundImageUrl": "https://static.tp-link.com/upload/image-banner/omada-sdn-router-image.jpg",
+    "ctaText": "Explore Products"
+  },
+  "gatewayTypes": [
+    {
+      "name": "Wired Router",
+      "description": "High-performance, secure, and reliable wired gateways for business networks of all sizes. Offering advanced VPN features and load balancing.",
+      "imageUrl": "https://static-page.tp-link.com/omada/router/img/router-wired.png",
+      "products": [
+        {
+          "name": "Omada 10G Multi-Gigabit VPN Router",
+          "model": "ER8411",
+          "specs": {
+            "wanPorts": "2x 10G SFP+, 1x Gigabit RJ45",
+            "lanPorts": "1x 10G SFP+, 8x Gigabit RJ45",
+            "vpnThroughput": "Up to 2,300,000 concurrent sessions",
+            "usbPorts": "2x USB 3.0",
+            "poeBudget": "N/A",
+            "wifi": "N/A",
+            "cellular": "4G/3G (via USB modem)"
+          },
+          "description": "An enterprise-grade VPN router with 10G ports, designed for high-speed, reliable, and secure business networks. Features a quad-core 2.2 GHz CPU, centralized cloud management, and dual redundant power supplies.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202203/20220318/ER8411(UN)1.0-R-v2.png",
+          "features": [
+            "Up to 10 WAN ports",
+            "High-Security VPN (IPSec, SSL, WireGuard, OpenVPN)",
+            "Centralized Cloud Management",
+            "Load Balancing",
+            "Advanced Firewall Policies",
+            "Dual Redundant Power Supplies"
+          ]
+        },
+        {
+          "name": "Omada Multi-Gigabit VPN Router",
+          "model": "ER707-M2",
+          "specs": {
+            "wanPorts": "Up to 6 WAN ports (2x 2.5G RJ45, 4x Gigabit RJ45/SFP)",
+            "lanPorts": "Multiple Gigabit RJ45/SFP",
+            "vpnThroughput": "N/A",
+            "usbPorts": "1x USB 2.0",
+            "poeBudget": "N/A",
+            "wifi": "N/A",
+            "cellular": "LTE (via USB dongle)"
+          },
+          "description": "A professional, secure, and reliable gateway with up to six WAN ports and two 2.5G ports. It's designed for centralized management and offers high-security VPN and load balancing features.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202208/20220817/ER707-M2(UN)2.0-R.png",
+          "features": [
+            "2x 2.5G Ports",
+            "Up to 6 WAN Ports",
+            "High-Security VPN",
+            "Centralized Management",
+            "Load Balancing",
+            "Advanced Security Features (DPI, IPS/IDS)"
+          ]
+        },
+        {
+          "name": "Omada Gigabit VPN Router",
+          "model": "ER7206",
+          "specs": {
+            "wanPorts": "Up to 4 WAN ports (1x SFP, 3x RJ45)",
+            "lanPorts": "2x RJ45",
+            "vpnThroughput": "291.6 Mbps (IPsec)",
+            "usbPorts": "1x USB 3.0 (V2/V2.2)",
+            "poeBudget": "N/A",
+            "wifi": "N/A",
+            "cellular": "LTE (via USB dongle)"
+          },
+          "description": "A professional, secure, and reliable gateway with up to 4 WAN ports, perfect for small and medium-sized businesses. It supports a wealth of VPN features and is seamlessly integrated into the Omada SDN platform.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202208/20220817/ER7206(UN)2.0-R.png",
+          "features": [
+            "Up to 4 WAN Ports",
+            "High-Security VPN",
+            "Centralized Management",
+            "Load Balancing",
+            "SPI Firewall, DoS Defense"
+          ]
+        },
+        {
+          "name": "Omada Gigabit VPN Router",
+          "model": "ER605",
+          "specs": {
+            "wanPorts": "Up to 4 WAN ports (1x Gigabit WAN, 2x Gigabit WAN/LAN, 1x USB)",
+            "lanPorts": "2x Gigabit LAN",
+            "vpnThroughput": "N/A",
+            "usbPorts": "1x USB (for 4G/3G Modem)",
+            "poeBudget": "N/A",
+            "wifi": "N/A",
+            "cellular": "4G/3G (via USB modem)"
+          },
+          "description": "A compact and reliable gigabit VPN router suitable for small offices and remote work. It provides multiple WAN ports for load balancing and supports various VPN protocols for secure connectivity.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202208/20220817/ER605(UN)2.0-R.png",
+          "features": [
+            "Up to 4 WAN ports",
+            "Highly Secure VPN",
+            "Centralized Cloud Management",
+            "Load Balancing",
+            "Advanced Firewall Policies"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WiFi Router",
+      "description": "All-in-one gateways that combine a high-speed Wi-Fi 6 router with powerful wired routing and VPN capabilities.",
+      "imageUrl": "https://static-page.tp-link.com/omada/router/img/router-wifi.png",
+      "products": [
+        {
+          "name": "Omada AX3000 Gigabit WiFi 6 VPN Gateway",
+          "model": "ER706W",
+          "specs": {
+            "wanPorts": "Up to 5 WAN ports (1x SFP, 4x RJ45)",
+            "lanPorts": "4x RJ45",
+            "vpnThroughput": "N/A",
+            "usbPorts": "1x USB 3.0",
+            "poeBudget": "N/A",
+            "wifi": "AX3000 Wi-Fi 6 (2402 Mbps on 5 GHz, 574 Mbps on 2.4 GHz)",
+            "cellular": "LTE (via USB dongle)"
+          },
+          "description": "An enterprise-grade dual-band wireless router that combines AX3000 WiFi 6 with multi-gigabit wired performance. Supports mesh technology, seamless roaming, and centralized management.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202208/20220817/ER706W(UN)1.0-R.png",
+          "features": [
+            "AX3000 Dual-Band WiFi 6",
+            "Up to 5 WAN Ports",
+            "Omada Mesh Technology",
+            "High-Security VPN",
+            "Centralized Management",
+            "Advanced Security (DPI, IPS/IDS)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5G/4G WiFi Router",
+      "description": "Stay connected anywhere with high-speed cellular gateways. Perfect for temporary locations, mobile deployments, or as a reliable backup internet source.",
+      "imageUrl": "https://static-page.tp-link.com/omada/router/img/router-4g.png",
+      "products": [
+        {
+          "name": "Omada 4G+ Cat6 AX3000 Wi-Fi 6 Outdoor/Indoor Gateway",
+          "model": "ER703WP-4G-Outdoor",
+          "specs": {
+            "wanPorts": "3x Gigabit (PoE In/Out)",
+            "lanPorts": "3x Gigabit WAN/LAN",
+            "vpnThroughput": "N/A",
+            "usbPorts": "N/A",
+            "poeBudget": "N/A",
+            "wifi": "AX3000 Wi-Fi 6",
+            "cellular": "4G+ Cat6 (300 Mbps)"
+          },
+          "description": "A versatile indoor/outdoor gateway with 4G+ and Wi-Fi 6 for flexible, high-speed connectivity. Its IP55 weatherproof enclosure ensures durability in harsh outdoor conditions.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202311/20231109/ER703WP-4G(UN)1.0-R-v2.png",
+          "features": [
+            "4G+ Cat6 Connectivity",
+            "AX3000 Wi-Fi 6",
+            "IP55 Weatherproof",
+            "PoE In/Out",
+            "Centralized Management",
+            "Detachable Antennas"
+          ]
+        },
+        {
+          "name": "Omada 4G+ Cat6 AX3000 Gigabit VPN Gateway with PoE+",
+          "model": "ER706WP-4G",
+          "specs": {
+            "wanPorts": "6x Gigabit",
+            "lanPorts": "6x Gigabit (4 with PoE+)",
+            "vpnThroughput": "N/A",
+            "usbPorts": "N/A",
+            "poeBudget": "45W",
+            "wifi": "AX3000 Wi-Fi 6",
+            "cellular": "4G+ Cat6 (300 Mbps)"
+          },
+          "description": "Combines 4G+ Cat6 cellular access, AX3000 Wi-Fi 6, and PoE+ ports in a single device, ideal for environments requiring both wireless connectivity and power for connected devices.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202311/20231109/ER706WP-4G(UN)1.0-R-v2.png",
+          "features": [
+            "4G+ Cat6, Dual SIM",
+            "AX3000 Wi-Fi 6",
+            "4x PoE+ Ports",
+            "Centralized Management",
+            "High-Security VPN",
+            "High-Gain Antennas"
+          ]
+        },
+        {
+          "name": "Omada 4G+ Cat6 AX3000 Gigabit VPN Gateway",
+          "model": "ER706W-4G",
+          "specs": {
+            "wanPorts": "6x Gigabit",
+            "lanPorts": "6x Gigabit",
+            "vpnThroughput": "N/A",
+            "usbPorts": "N/A",
+            "poeBudget": "N/A",
+            "wifi": "AX3000 Wi-Fi 6",
+            "cellular": "4G+ Cat6 (300 Mbps)"
+          },
+          "description": "Offers high-speed cellular internet access with AX3000 Wi-Fi 6 and extensive VPN capabilities, all managed centrally through the Omada SDN platform.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2023/202306/20230628/ER706W-4G(UN)_1.0_R_v2.png",
+          "features": [
+            "4G+ Cat6 Speeds",
+            "AX3000 Dual-Band Wi-Fi 6",
+            "Centralized Cloud Management",
+            "Highly Secure VPN",
+            "Omada Mesh Compatibility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrated Router",
+      "description": "Simplify your network with a 3-in-1 device that combines a router, PoE+ switch, and the Omada controller in one compact, fanless unit.",
+      "imageUrl": "https://static-page.tp-link.com/omada/router/img/router-integrated.png",
+      "products": [
+        {
+          "name": "Omada 3-in-1 Gigabit VPN Router",
+          "model": "ER7212PC",
+          "specs": {
+            "wanPorts": "Up to 4 (2x SFP, 2x RJ45)",
+            "lanPorts": "8x PoE+ RJ45",
+            "vpnThroughput": "168.5 Mbps (IPsec)",
+            "usbPorts": "N/A",
+            "poeBudget": "110W",
+            "wifi": "N/A",
+            "cellular": "N/A"
+          },
+          "description": "A highly-integrated 3-in-1 business gateway that includes a router, 8-port PoE+ switch, and an embedded Omada Controller. Manage your entire network from a single, cost-effective device.",
+          "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202208/20220817/ER7212PC(UN)1.0-R.png",
+          "features": [
+            "Router, PoE+ Switch & Omada Controller in one",
+            "8x PoE+ LAN ports with 110W budget",
+            "Centralized Management of APs & Switches",
+            "High-Security VPN",
+            "Fanless, Compact Design"
+          ]
+        }
+      ]
+    }
+  ],
+  "technologyHighlights": [
+    "Omada SDN Integration",
+    "Centralized Cloud Management",
+    "Multi-WAN Load Balancing",
+    "High-Security VPN",
+    "Advanced Firewall Policies",
+    "Wi-Fi 6 Technology",
+    "PoE+ Support",
+    "Zero-Touch Provisioning"
+  ],
+  "faqs": [
+    {
+      "question": "How do I add an Omada Gateway into the network?",
+      "answer": "You can add an Omada Gateway via the Omada SDN Controller. The process involves connecting the gateway to your network, discovering it in the controller interface, and then adopting it to apply centralized configuration."
+    },
+    {
+      "question": "What should I do if the Omada Gateway fails to be adopted?",
+      "answer": "Check for IP address conflicts between the gateway and other devices on your network. Ensure the controller can reach the gateway and that the gateway's firmware is compatible with your controller version. You may need to manually set the controller's inform URL on the gateway."
+    },
+    {
+      "question": "How to configure Load Balancing on Omada Gateway?",
+      "answer": "Load Balancing can be configured in the Omada Controller under the 'Transmission' > 'Load Balancing' section. You can enable it and set policies for how traffic is distributed across multiple WAN ports."
+    },
+    {
+      "question": "What VPN protocols do Omada routers support?",
+      "answer": "Omada routers support a wide range of VPN protocols, including IPsec, L2TP, PPTP, SSL, OpenVPN, and WireGuard, allowing for secure connections for remote employees and site-to-site networks."
+    }
+  ],
+  "images": [
+    "https://static-page.tp-link.com/omada/router/img/router-wired.png",
+    "https://static-page.tp-link.com/omada/router/img/router-wifi.png",
+    "https://static-page.tp-link.com/omada/router/img/router-4g.png",
+    "https://static-page.tp-link.com/omada/router/img/router-integrated.png",
+    "https://static-page.tp-link.com/omada/router/img/icon-arrow-link.svg",
+    "https://static.tp-link.com/assets/images/nav/smb-routers/Wired%20Routers.png",
+    "https://static.tp-link.com/assets/images/nav/smb-routers/Wi-Fi%20Routers.png",
+    "https://static.tp-link.com/assets/images/nav/smb-routers/4G%20Wi-Fi%20Routers.png",
+    "https://static.tp-link.com/assets/images/nav/smb-routers/3-in-1%20Routers.png",
+    "https://static.tp-link.com/assets/images/omada/logo.svg"
+  ],
+  "vpnFeatures": [
+    "IPsec VPN (Site-to-Site, Client-to-Site)",
+    "L2TP/PPTP VPN Server/Client",
+    "SSL VPN",
+    "OpenVPN",
+    "WireGuard VPN",
+    "One-Click Auto IPsec VPN",
+    "VPN Passthrough"
+  ],
+  "loadBalancingFeatures": [
+    "Multi-WAN Load Balancing",
+    "Link Backup (Failover)",
+    "Policy-based Routing",
+    "Session-based Balancing",
+    "Application-based Routing"
+  ],
+  "_metadata": {
+    "scrapedAt": "2026-02-25",
+    "sourceUrls": [
+      "https://www.omadanetworks.com/us/business-networking/omada/router/",
+      "https://www.omadanetworks.com/us/business-networking/omada/router/wired-router/",
+      "https://www.omadanetworks.com/us/business-networking/omada/router/wifi-router/",
+      "https://www.omadanetworks.com/us/business-networking/omada/router/5g-4g-wifi-router/",
+      "https://www.omadanetworks.com/us/business-networking/omada/router/integrated-router/"
+    ],
+    "verifiedImageUrls": true
+  }
+}
