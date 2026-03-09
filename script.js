@@ -815,6 +815,64 @@
         }
     }
     // ==========================================================================
+    // HERO CAROUSEL (mirrors omadanetworks.com banner slider)
+    // ==========================================================================
+    function initHeroCarousel() {
+        const carousel = document.querySelector('.hero-carousel');
+        if (!carousel)
+            return;
+        const slides = carousel.querySelectorAll('.hero-carousel__slide');
+        const dots = carousel.querySelectorAll('.hero-carousel__dot');
+        const prevBtn = carousel.querySelector('.hero-carousel__prev');
+        const nextBtn = carousel.querySelector('.hero-carousel__next');
+        if (slides.length < 2)
+            return;
+        let current = 0;
+        let autoplayTimer = null;
+        const AUTOPLAY_MS = 5000;
+        function goTo(index) {
+            slides[current].classList.remove('hero-carousel__slide--active');
+            dots[current]?.classList.remove('hero-carousel__dot--active');
+            dots[current]?.setAttribute('aria-selected', 'false');
+            current = (index + slides.length) % slides.length;
+            slides[current].classList.add('hero-carousel__slide--active');
+            dots[current]?.classList.add('hero-carousel__dot--active');
+            dots[current]?.setAttribute('aria-selected', 'true');
+        }
+        function startAutoplay() {
+            stopAutoplay();
+            autoplayTimer = setInterval(() => goTo(current + 1), AUTOPLAY_MS);
+        }
+        function stopAutoplay() {
+            if (autoplayTimer) {
+                clearInterval(autoplayTimer);
+                autoplayTimer = null;
+            }
+        }
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => { goTo(i); startAutoplay(); });
+        });
+        prevBtn?.addEventListener('click', () => { goTo(current - 1); startAutoplay(); });
+        nextBtn?.addEventListener('click', () => { goTo(current + 1); startAutoplay(); });
+        // Pause on hover
+        carousel.addEventListener('mouseenter', stopAutoplay);
+        carousel.addEventListener('mouseleave', startAutoplay);
+        // Touch swipe support
+        let touchStartX = 0;
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            stopAutoplay();
+        }, { passive: true });
+        carousel.addEventListener('touchend', (e) => {
+            const diff = touchStartX - e.changedTouches[0].clientX;
+            if (Math.abs(diff) > 50) {
+                goTo(diff > 0 ? current + 1 : current - 1);
+            }
+            startAutoplay();
+        }, { passive: true });
+        startAutoplay();
+    }
+    // ==========================================================================
     // INITIALIZATION
     // ==========================================================================
     function init() {
@@ -838,6 +896,7 @@
         initComparisonTable();
         initProductCardEnhancements();
         initSmoothHashScroll();
+        initHeroCarousel();
     }
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);

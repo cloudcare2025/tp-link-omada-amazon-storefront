@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://static.tp-link.com" crossorigin>
 
     <!-- LCP: Preload hero image -->
-    <link rel="preload" as="image" href="images/hero/isc-west-hero.webp" type="image/webp" fetchpriority="high">
+    <link rel="preload" as="image" href="images/hero/isc-west-2026-desktop.jpg" type="image/jpeg" fetchpriority="high">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
@@ -204,20 +204,44 @@
             </div>
         </nav>
 
-        <!-- Hero Banner -->
-        <section id="home" class="hero" data-section="home" aria-label="Omada hero banner">
-            <div class="hero__background">
-                <img src="images/hero/isc-west-hero.webp" alt="Omada enterprise networking infrastructure — switches, access points, and gateways powering modern business connectivity" class="hero__bg-image" fetchpriority="high" width="1920" height="800">
-                <div class="hero__overlay"></div>
-            </div>
-            <div class="hero__content container">
-                <h1 class="hero__headline">Enterprise Networking.<br>Simplified.</h1>
-                <p class="hero__subtext">Cloud-managed WiFi 7, multi-gigabit switching, and intelligent gateways — trusted by 1.7 billion users across 170+ countries. #1 WLAN provider for 12 consecutive years.</p>
-                <div class="hero__ctas">
-                    <a href="wireless.html" class="btn btn--primary btn--large">Shop Networking Solutions &rarr;</a>
-                    <a href="industries.html" class="btn btn--secondary btn--large">Find Your Industry Fit</a>
+        <!-- Hero Banner Carousel (mirrors omadanetworks.com homepage) -->
+        <section id="home" class="hero-carousel" data-section="home" aria-label="Omada hero banner carousel" role="region">
+            <div class="hero-carousel__track">
+                <!-- Slide 1: ISC West 2026 -->
+                <div class="hero-carousel__slide hero-carousel__slide--active" role="group" aria-roledescription="slide" aria-label="1 of 3">
+                    <a href="industries.html" aria-label="Join us at ISC West 2026">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="images/hero/isc-west-2026-mobile.jpg">
+                            <img src="images/hero/isc-west-2026-desktop.jpg" alt="Join us at ISC West 2026. Reliable Networks. Smart Surveillance. Booth #25051, Venetian Expo, Las Vegas, March 25-27." class="hero-carousel__image" fetchpriority="high" width="3840" height="1280">
+                        </picture>
+                    </a>
+                </div>
+                <!-- Slide 2: MDU Solution -->
+                <div class="hero-carousel__slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
+                    <a href="industries.html#mdu" aria-label="Omada MDU Solution">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="images/hero/mdu-solution-mobile.jpg">
+                            <img src="images/hero/mdu-solution-desktop.jpg" alt="Scalable Solution for Multi-Dwelling Units. Apartments, Student Housing, Condominiums, and Assisted Living Facilities." class="hero-carousel__image" loading="lazy" width="3840" height="1280">
+                        </picture>
+                    </a>
+                </div>
+                <!-- Slide 3: EAP725-Outdoor -->
+                <div class="hero-carousel__slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
+                    <a href="wireless.html" aria-label="Omada EAP725-Outdoor">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="images/hero/eap725-outdoor-mobile.jpg">
+                            <img src="images/hero/eap725-outdoor-desktop.jpg" alt="Omni to Directional. Seamless Outdoor Wi-Fi 7 Coverage. Meet the New EAP725-Outdoor with Omni/Directional Antennas." class="hero-carousel__image" loading="lazy" width="3840" height="1280">
+                        </picture>
+                    </a>
                 </div>
             </div>
+            <div class="hero-carousel__dots" role="tablist" aria-label="Hero banner navigation">
+                <button class="hero-carousel__dot hero-carousel__dot--active" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
+                <button class="hero-carousel__dot" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
+                <button class="hero-carousel__dot" role="tab" aria-selected="false" aria-label="Slide 3" data-slide="2"></button>
+            </div>
+            <button class="hero-carousel__prev" aria-label="Previous slide">&#10094;</button>
+            <button class="hero-carousel__next" aria-label="Next slide">&#10095;</button>
         </section>
 
         <!-- About This Brand Section -->
