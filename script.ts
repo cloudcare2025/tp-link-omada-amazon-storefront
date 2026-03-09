@@ -975,20 +975,14 @@ type DebouncedFunction<T extends (...args: never[]) => void> = (...args: Paramet
     prevBtn?.addEventListener('click', () => { goTo(current - 1); startAutoplay(); });
     nextBtn?.addEventListener('click', () => { goTo(current + 1); startAutoplay(); });
 
-    // Pause on hover
-    carousel.addEventListener('mouseenter', stopAutoplay);
-    carousel.addEventListener('mouseleave', startAutoplay);
-
     // Touch swipe support
     let touchStartX = 0;
     carousel.addEventListener('touchstart', (e: TouchEvent) => {
       touchStartX = e.touches[0].clientX;
-      stopAutoplay();
     }, { passive: true });
     carousel.addEventListener('touchend', (e: TouchEvent) => {
       const diff = touchStartX - e.changedTouches[0].clientX;
       if (Math.abs(diff) > 50) { goTo(diff > 0 ? current + 1 : current - 1); }
-      startAutoplay();
     }, { passive: true });
 
     startAutoplay();
